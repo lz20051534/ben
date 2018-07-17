@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>article元素</title>
+    <style>
+        #headerMain {
+            width: 300px;
+            background: #cccccc;
+        }
+
+        #htmlBox {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <article id="htmlBox">
+        <header id="headerMain">
+            <h1>artice元素是什么？</h1>
+            <p>article元素代表文档、页面或应用程序中独立的、完整的、可以独自被外部引用的内容。</p>
+            <p>article元素可以嵌套使用。</p>
+            <p>article可以用来表示插件。</p>
+        </header>
+        <article>
+            <header>
+                作者
+            </header>
+            <p>
+                评论区
+            </p>
+            <footer>
+                time
+            </footer>
+        </article>
+        <footer>
+            <p>这是底部</p>
+        </footer>
+    </article>
+    <article>
+        <h1>这是一个内嵌页面</h1>
+        <object>
+            <embed src="https://www.baidu.com" width="600" height="400" style="background:#eeeeee">
+        </object>
+    </article>
+</body>
+
+</html>
