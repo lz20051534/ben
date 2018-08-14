@@ -1,0 +1,17 @@
+#P4_buttonCaidan{
+    display: block;
+}
+#P4_logo1,#P4_logo2,#P4_head_caidan,#P4_part1Difault{
+    display: none;
+}
+#P4_head{
+    height: 60px;
+}
+#P4_part1Mobile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+}
