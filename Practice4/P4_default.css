@@ -35,7 +35,7 @@ body{
     cursor : default;
     color : #1686d9;
 }
-#P4_logo1,#P4_buttonCaidan,#P4_part1Mobile{
+#P4_buttonCaidan,#P4_part1Mobile,#P4_TanCloseButton{
     display: none;
 }
 #P4_body{
@@ -58,24 +58,14 @@ body{
     background-color: #f2f2f2;
 }
 #P4_Tan_head{
-    width: 100%;
+    width: 100%-100px;
+    padding-left: 50px;
+    padding-right: 50px;;
     height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #f2f2f2;
-}
-#P4_Tan_logo{
-   margin-left: 50px;
-}
-#P4_Tan_caidanClose{
-    width:35px;
-    margin-right: 50px;
-    height: 35px;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 #P4_Tan_caidanClose:hover{
     background-color: #eeeeee;
@@ -123,10 +113,6 @@ body{
     margin-top: 4%;
     margin-bottom: 4%;
 }
-.P4_logo3{
-    margin-top: 10%;
-    margin-bottom: 5%;
-}
 
 .P4_downButton{
     width: 200px;
@@ -137,7 +123,7 @@ body{
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
 }
 .P4_downButton:hover{
     background-color: #ffffff;
@@ -188,4 +174,32 @@ body{
 .P4_BoxChild2{
     width: 717px;
     height: 502px;
+}
+.P4_logoBox1,.P4_logoBox3{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.P4_logoBox2{
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 4%;
+}
+.P4_logo{
+    height: 100%;
+}
+.P4_logoText{
+    font: 20px 微软雅黑;
+    color: #666666;
+    font-weight: bold;
+    margin-left: 8px;
+}
+#P4_part1ImageBox{
+    width: 80%;
+}
+.P4_img{
+    width: 100%;
 }

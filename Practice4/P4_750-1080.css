@@ -8,7 +8,7 @@
     width:100%;
     justify-content: space-between;
 }
-#P4_logo2,#P4_buttonCaidan,#P4_part1Mobile{
+#P4_buttonCaidan,#P4_part1Mobile,.P4_logoText{
     display: none;
 }
 #P4_logo1{
