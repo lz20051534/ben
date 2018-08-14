@@ -10,9 +10,7 @@ body{
     justify-content: center;
 }
 #P4_head_father,.P4_Box{
-    width: 1376px;
-    padding-left: 32px;
-    padding-right: 32px;
+    width: 1440px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -86,7 +84,7 @@ body{
 }
 .P4_Tan_caidan{
     width: 100%-100px;
-    height: 70px;
+    height: 50px;
     box-sizing: border-box;
     border-bottom: 1px solid #cccccc;
     font: 15px 微软雅黑;
@@ -99,10 +97,8 @@ body{
     text-decoration: none;
 }
 .P4_Box{
-    width: 1376px;
+    width: 1400px;
     height: 1000px;
-    padding-left: 32px;
-    padding-right: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,22 +112,21 @@ body{
 .P4_H1{
     font: 44px 微软雅黑;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .P4_H2{
     font: 14px 微软雅黑;
     width: 70%;
     display: flex;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 4%;
 }
 .P4_logo3{
     margin-top: 10%;
-    margin-bottom: 10%x;
+    margin-bottom: 5%;
 }
 
 .P4_downButton{
@@ -190,4 +185,8 @@ body{
 .P4_knowButton:hover{
     background-color: #2b2c33;
     color: #ffffff;
+}
+.P4_BoxChild2{
+    width: 717px;
+    height: 502px;
 }
