@@ -18,14 +18,20 @@
    flex-direction: column;
 }
 .P4_BoxChild2_img{
-    width: 90%;
-    height: 90%;
+    widows: 100%;;
 }
 .P4_BoxChild2{
+    widows: 90%;
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 .P4_BoxChild1{
     margin-top: 50px;
+}
+.P4_downButton{
+    margin-bottom: 8%;
+}
+#P4_head_father,.P4_Box{
+    width: 90%;
 }
