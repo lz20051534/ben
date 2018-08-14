@@ -17,14 +17,15 @@
 .P4_Box{
    flex-direction: column;
 }
-.P4_BoxChild2_img{
-    widows: 100%;;
-}
 .P4_BoxChild2{
-    widows: 90%;
+    width: 717px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.P4_BoxChild2_img{
+    width: 100%;
 }
 .P4_BoxChild1{
     margin-top: 50px;
