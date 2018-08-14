@@ -1,5 +1,5 @@
 #P4_buttonCaidan{
-    display: block;
+    display: inline;
 }
 #P4_logo1,#P4_logo2,#P4_head_caidan,#P4_part1Difault{
     display: none;
@@ -14,4 +14,7 @@
     align-items: center;
     padding-bottom: 30px;
     background-color: #ffffff;
+}
+.P4_H1,P4_h3{
+    font: 36px 微软雅黑;
 }
