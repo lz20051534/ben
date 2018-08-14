@@ -14,6 +14,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   cursor: default;
+  color: #666666;
 }
 
 .icon-liebiao:before { content: "\e65f"; }
