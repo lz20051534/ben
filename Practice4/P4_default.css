@@ -35,7 +35,7 @@ body{
     cursor : default;
     color : #1686d9;
 }
-#P4_buttonCaidan,#P4_part1Mobile,#P4_TanCloseButton{
+#P4_buttonCaidan,#P4_part1Mobile{
     display: none;
 }
 #P4_body{
