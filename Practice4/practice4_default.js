@@ -1,5 +1,5 @@
 document.getElementById('P4_buttonCaidan').onclick = function(){
-    document.getElementById('P4_Tan').style.display = 'block';
+    document.getElementById('P4_Tan').style.display = 'flex';
     document.body.style.overflow = 'hidden';
 };
 document.getElementById('P4_TanCloseButton').onclick = function(){
