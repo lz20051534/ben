@@ -60,7 +60,7 @@ body{
 }
 #P4_Tan_head{
     width: 90%;
-    height: 90px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +87,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 .P4_BoxChild1{
     display: flex;
