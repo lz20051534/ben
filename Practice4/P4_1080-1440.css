@@ -4,3 +4,17 @@
 .P4_BoxChild2_img{
     width: 100%;
 }
+.P4_3{
+    width: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.P4_Four{
+    width: 100%;
+}
+.P4_4Chilad{
+    width: 100%;
+}
+.P4_H7{
+    width: 50%;
+}

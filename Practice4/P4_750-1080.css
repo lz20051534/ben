@@ -36,3 +36,12 @@
 #P4_head_father,.P4_Box{
     width: 90%;
 }
+
+.P4_3{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.P4_4Chilad{
+    width: 100%;
+}
