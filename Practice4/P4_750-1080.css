@@ -33,7 +33,7 @@
 .P4_downButton{
     margin-bottom: 8%;
 }
-#P4_head_father,.P4_Box{
+#P4_head_father,.P4_Box,.P4_Four{
     width: 90%;
 }
 
@@ -42,6 +42,16 @@
     flex-direction: column;
     align-items: center;
 }
-.P4_4Chilad{
+.P4_FootChilad1{
+    flex-direction: column;
+    align-items: center;
+}
+.P4_FootChilad1 div:last-child div:first-child{
+    margin: 0;
+}
+.P4_Four,.P4_4Chilad{
     width: 100%;
+}
+P4_4Chilad span,P4_4Chilad image{
+    width: 85%;
 }
