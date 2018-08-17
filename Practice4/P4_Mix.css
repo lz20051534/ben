@@ -1,4 +1,4 @@
-#P4_buttonCaidan,#P4_TanCloseButton{
+#P4_buttonCaidan{
     display: inline;
 }
 #P4_head_caidan,#P4_part1Difault,.P4_logoBox1{
@@ -29,4 +29,16 @@
     color: #666666;
     font-weight: bold;
     margin-left: 8px;
+}
+
+.P4_3{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.P4_3Chilad{
+    width: 85%;
+}
+.P4_4Chilad{
+    width: 100%;
 }

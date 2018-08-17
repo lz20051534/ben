@@ -200,3 +200,49 @@ body{
 .P4_img{
     width: 100%;
 }
+.P4_3{
+    width: 1440px;
+    margin-top: 8%x;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.P4_3Chilad{
+    width: 450px;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.P4_3ImageBox{
+    width:100%;
+}
+.P4_H5{
+    font: 26px 微软雅黑;
+    margin-top: 4%;
+}
+.P4_H6{
+    font: 14px 微软雅黑;
+    width: 90%;
+    margin-top: 4%;
+    text-align: center;
+}
+.P4_4Chilad{
+    width: 708px;
+    height: 579px;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.P4_4ImageBox{
+    width: 310px;
+
+}
+.P4_H7{
+    width: 70%;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
