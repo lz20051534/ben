@@ -39,6 +39,24 @@
 .P4_3Chilad{
     width: 85%;
 }
-.P4_4Chilad{
+
+.P4_FootText{
+    margin-left: 100px;
+}
+.P4_FootChilad2 .P4_H9:last-child{
+    margin-left: 50px;
+}
+
+.P4_FootChilad1{
+    flex-direction: column;
+    align-items: center;
+}
+.P4_FootChilad1 div:last-child div:first-child{
+    margin: 0;
+}
+.P4_Four,.P4_4Chilad{
     width: 100%;
+}
+P4_4Chilad span,P4_4Chilad image{
+    width: 85%;
 }
