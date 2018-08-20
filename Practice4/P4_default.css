@@ -28,7 +28,7 @@ body{margin: 0; padding: 0}
 /*网站body-part1手机端*/
 .BodyMobile{width: 100%; display: none} /*手机端第一屏*/
 .BodyMobile div span:last-child{width: 80%; margin-top: 4%}/*限定手机端正文的宽度*/
-.BodyMobile div img:first-child{width: 150px; margin-top: 8%; margin-bottom: 5%} /*手机端第一屏的logo*/
+.BodyMobile div img:first-child{width: 100px; margin-top: 8%; margin-bottom: 5%} /*手机端第一屏的logo*/
 .BodyMobile div img:last-child{width: 350px; margin-top: 8%; margin-bottom: 5%} /*手机端第一屏的图片，限定其宽度*/
 .DownButton{width: 220px; height: 45px; background: #1686d9; font: 18px 微软雅黑; border-radius: 22px; color: #ffffff}/*立即下载按钮的样式*/
 .DownButton:hover{background: #ffffff; box-sizing: border-box; border: solid 2px #1686d9; color: #1686d9; font-weight: bold}/*立即下载按钮鼠标经过的样式*/
