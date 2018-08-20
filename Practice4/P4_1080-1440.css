@@ -1,20 +1,16 @@
-#P4_head_father,.P4_Box{
-    width:90%;
-}
-.P4_BoxChild2_img{
-    width: 100%;
-}
-.P4_3{
-    width: 90%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.P4_Four{
-    width: 100%;
-}
-.P4_4Chilad{
-    width: 100%;
-}
-.P4_H7{
-    width: 50%;
-}
+.Body2{width: 100%}/*中层主体100%*/
+/*头部*/
+.HeadBox2{width: 100%} /*头部里层的框架 默认情况下是1440px，当浏览器尺寸小于1440时，宽度变成100%*/
+.HeadBody div{width: 80%} /*导航栏菜单的总体宽度*/
+.LogoBox1{width: 20%; justify-content: flex-start} /*logo总体宽度*/
+
+/*主体 PC-1*/
+.Part1 div div{flex-direction: column}
+.Part1 div div img{margin-top: 100px}
+
+/*Part-3*/
+.Part3 .BodyChild{flex-wrap: wrap; width: 90%; margin-bottom: 150px; margin-top: 150px}
+.Part3 .Flex_SC:last-child{margin-top: 100px}
+
+/*Part-5*/
+.Part5{margin-top: 100px}

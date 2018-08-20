@@ -1,57 +1,26 @@
-#P4_head{
-    height: 80px;
-}
-.P4_head_caidan{
-    margin-left:4%;
-}
-#P4_head_caidan{
-    width:100%;
-    justify-content: space-between;
-}
-#P4_buttonCaidan,#P4_part1Mobile,.P4_logoText{
-    display: none;
-}
-#P4_logo1{
-    display: inline;
-}
-.P4_Box{
-   flex-direction: column;
-}
-.P4_BoxChild2{
-    width: 717px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.P4_BoxChild2_img{
-    width: 100%;
-}
-.P4_BoxChild1{
-    margin-top: 50px;
-}
-.P4_downButton{
-    margin-bottom: 8%;
-}
-#P4_head_father,.P4_Box,.P4_Four{
-    width: 90%;
-}
+.Body2{width: 100%}/*中层主体100%*/
+/*头部*/
+.HeadBox2{width: 100%}/*头部里层的框架 默认情况下是1440px，当浏览器尺寸小于1080时，宽度变成100%*/
+.HeadBody div{width: 90%}/*导航栏菜单的总体宽度*/
+.LogoBox1{width: 10%; justify-content: flex-start}/*logo总体宽度*/
+.LogoBox1 span{display: none}/*不显示logo的文字*/
+.HeadBox{height: 70px}/*导航的宽度降为70px*/
 
-.P4_3{
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-}
-.P4_FootChilad1{
-    flex-direction: column;
-    align-items: center;
-}
-.P4_FootChilad1 div:last-child div:first-child{
-    margin: 0;
-}
-.P4_Four,.P4_4Chilad{
-    width: 100%;
-}
-P4_4Chilad span,P4_4Chilad image{
-    width: 85%;
-}
+/*主体 PC-1*/
+.Part1 div div{flex-direction: column}
+.Part1 div div img{margin-top: 100px}
+
+/*Part-3*/
+.Part3 .BodyChild{flex-direction: column; justify-content: center; width: 90%; height: 1260px}/*第三部分主体的布局方式*/
+.Part3 .BodyChild .Flex_SC{margin-top: 50px}/*子项目的上边距*/
+.Part3 .BodyChild .Flex_SC:first-child{margin-top: 0}/*第一个子项目的上边距*/
+
+/*Part-4*/
+.Part4 .BodyChild{flex-direction: column; height: auto}
+.Part4 .BodyChild .Flex_SE, .Part4 .BodyChild .Flex_SC{width: 100%; height: 580px} /*上下的box设定宽度和背景颜色*/
+
+/*Part-5*/
+.Part5{margin-top: 0}
+.Part5 .BodyChild{justify-content: space-between} /*让底部的导航菜单平均分布*/
+.Part5 .Child{width: 40%} /*底部导航栏分成两个部分，对每个部分进行设定*/
+.Part5 .Child:last-child{margin-left: 0} /*底部右侧导航栏的左边距*/
