@@ -5,13 +5,17 @@
 
 /*头部*/
 .HeadBox2{width: 100%}/*头部里层的框架 默认情况下是1440px，当浏览器尺寸小于750时，宽度变成100%*/
+.HeadBox .Logo{width: 36px} /*手机端非首页 头部logo大小*/
+.HeadBox span{font-size: 18px; margin-left: 6px} /*手机端非首页 头部logo大小*/
 .HeadBody div,.HeadBody a{display: none}/*隐藏logo和logo文字*/
 #iconZixun{display: block}/*显示资讯的按钮*/
 #iconZixun:hover{color: #1686d9}/*资讯按钮的鼠标滑动样式*/
 .HeadBox{height: 50px}/*导航的宽度降为50px*/
+.HeadChanpinGongneng a{display: flex}
+.HeadChanpinGongneng{height: 70px;}
 
 /*主体*/
-.BodyMobile{display: flex}/*显示手机端第一屏*/
+.BodyMobile{display: flex;  margin-top: 70px}/*显示手机端第一屏*/
 .BodyMobile div img:last-child{width: 85%; margin-top: 8%; margin-bottom: 5%} /*手机端第一屏的图片，限定其宽度*/
 
 /*主体 PC-1*/
@@ -41,3 +45,8 @@
 
 /*Part-6*/
 .Part6 a{margin-left: 4%} /*对底部导航栏的链接字体做样式*/
+
+/*产品功能页面的第一部分*/
+.PartChanpin1 .BodyChild div{width: 100%; margin-top: 0} /*去除第一部分的子元素上边距*/
+.PartChanpin1 .BodyChild{height: auto; width: 100%} /*第一部分整体高度自适应*/
+.PartChanpin1{margin-top: 70px;}/*第一部分整体的上边距*/

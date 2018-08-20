@@ -5,8 +5,8 @@
 .LogoBox1{width: 20%; justify-content: flex-start} /*logo总体宽度*/
 
 /*主体 PC-1*/
-.Part1 div div{flex-direction: column}
-.Part1 div div img{margin-top: 100px}
+.Part1 .BodyChild{flex-direction: column}
+.Part1 img{margin-top: 100px}
 
 /*Part-3*/
 .Part3 .BodyChild{flex-wrap: wrap; width: 90%; margin-bottom: 150px; margin-top: 150px}
