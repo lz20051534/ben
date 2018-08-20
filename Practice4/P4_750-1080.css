@@ -7,8 +7,8 @@
 .HeadBox{height: 70px}/*导航的宽度降为70px*/
 
 /*主体 PC-1*/
-.Part1 div div{flex-direction: column}
-.Part1 div div img{margin-top: 100px}
+.Part1 .BodyChild{flex-direction: column}
+.Part1 img{margin-top: 100px}
 
 /*Part-3*/
 .Part3 .BodyChild{flex-direction: column; justify-content: center; width: 90%; height: 1260px}/*第三部分主体的布局方式*/
@@ -24,3 +24,9 @@
 .Part5 .BodyChild{justify-content: space-between} /*让底部的导航菜单平均分布*/
 .Part5 .Child{width: 40%} /*底部导航栏分成两个部分，对每个部分进行设定*/
 .Part5 .Child:last-child{margin-left: 0} /*底部右侧导航栏的左边距*/
+
+/*产品功能页面的第一部分*/
+.PartChanpin1 .BodyChild div{width: 100%; margin-top: 0} /*去除第一部分的子元素上边距*/
+.PartChanpin1 .BodyChild{height: auto; width: 100%} /*第一部分整体高度自适应*/
+.PartChanpin1{margin-top: 70px;}/*第一部分整体的上边距*/
+
