@@ -53,3 +53,6 @@
 .PartChanpin1 .BodyChild img{width: 280px}
 .PartChanpin1 .normalText{width: 90%}
 .PartChanpin1 .Chanpin5 img{width: 100px}
+
+/*产品功能页面的banner*/
+.PartChanpinBanner{display: none}

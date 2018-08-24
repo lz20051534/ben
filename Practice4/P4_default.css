@@ -94,8 +94,15 @@ body{margin: 0; padding: 0}
 #P4_Tan a:hover{color: #1686d9} /*导航菜单的鼠标经过样式*/
 .TanHead{width: 100%; height: 70px}/*内部空间的整体大小*/
 
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*产品功能页面的banner*/                                                                                                                 
+.PartChanpinBanner{background: #1e9cfc; margin-top: 90px}
+.PartChanpinBanner .Body2{background: url(images/haiwai.png) center center no-repeat; height: 499px; background-size: auto 100%}
+.PartChanpinBanner .BodyChild{align-items: flex-start; width: 1000px}
+.PartChanpinBanner span{text-align: left; color: #ffffff}
+
 /*产品功能页面的样式列表*/
-.PartChanpin1{margin-top: 90px;}
 .PartChanpin1 .BodyChild{height: 3000px; display: flex; flex-flow: column wrap; align-content: space-between}
 .PartChanpin1 .BodyChild div{width: 48%; margin-top: 4%}
 .PartChanpin1 .Chanpin1{height: 909px; background: #faf7eb}
@@ -119,4 +126,5 @@ body{margin: 0; padding: 0}
 .PartChanpin1 .Chanpin7 div{margin-bottom: 20px}
 .PartChanpin1 .Chanpin8{height: 635px; background:#d0e9ea; justify-content: flex-start}
 .PartChanpin1 .Chanpin8 img{width: 400px; margin-bottom: 30px}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 
