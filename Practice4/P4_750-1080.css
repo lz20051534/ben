@@ -30,3 +30,5 @@
 .PartChanpin1 .BodyChild{height: auto; width: 100%} /*第一部分整体高度自适应*/
 .PartChanpin1{margin-top: 70px;}/*第一部分整体的上边距*/
 
+/*产品功能页面的banner*/
+.PartChanpinBanner{display: none}
