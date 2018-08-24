@@ -50,3 +50,6 @@
 .PartChanpin1 .BodyChild div{width: 100%; margin-top: 0} /*去除第一部分的子元素上边距*/
 .PartChanpin1 .BodyChild{height: auto; width: 100%} /*第一部分整体高度自适应*/
 .PartChanpin1{margin-top: 70px;}/*第一部分整体的上边距*/
+.PartChanpin1 .BodyChild img{width: 280px}
+.PartChanpin1 .normalText{width: 90%}
+.PartChanpin1 .Chanpin5 img{width: 100px}
