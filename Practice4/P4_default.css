@@ -136,18 +136,22 @@ body{margin: 0; padding: 0}
 .PartDownloadBanner span{text-align: left; color: #ffffff}
 /*下载页面的css*/
 .PartDownload{margin-top: 90px}
-.PartDownload .BodyChild img{width: 280px}
+.PartDownload .BodyChild img{width: 280px;}
 .PartDownload .BodyChild > div{width: 49%;  height: 1000px}
-.PartDownload .DownloadPart1{background: #faf7eb}
+.PartDownload .DownloadPart1{background: #edf8f5}
 .PartDownload .DownloadPart2{background: #faf7eb}
 .PartDownloadBanner .DownButton {text-decoration: none}
-.PartDownload .MobileDown{width: 80%; height: 350px; margin-top: 60px; margin-bottom: 60px}
+.PartDownload .MobileDown{width: 80%; margin-top: 90px; margin-bottom: 90px}
 .PartDownload .MobileDown div{width: 130px; height: 100%; justify-content: flex-end}
-.PartDownload .MobileDown img{width: 100%; margin-bottom: 30px}
-.PartDownload .MobileDown span{width: 130px; height: 30px; background: #07c968; display: flex; align-items: center; justify-content: center; border-radius: 15px; color: #ffffff; cursor: default}
-.PartDownload .MobileDown span:hover{background: #1686d9}
+.PartDownload .MobileDown img{height: 200px; width: auto; margin-bottom: 30px}
+.PartDownload .MobileDown span{width: 130px; height: 30px; background: #ffffff; display: flex; align-items: center; justify-content: center; border-radius: 15px; color: #000000; cursor: default}
+.PartDownload .MobileDown span:hover{background: #1686d9; color: #ffffff}
 .PartDownload .importantText{font-size: 24px}
-.PartDownload .DownloadPart1 a{text-decoration: none}
+.PartDownload a{text-decoration: none}
+.PartDownload a:hover{color: #1686d9}
+.PartDownload .DownloadPart2 img{width: 400px; margin-top: 90px; margin-bottom: 90px}
+.PartDownload .DownloadPart2 div{width: 300px; height: 50px; background: #01e675; border-radius: 25px; color: #ffffff; margin-top: 20px}
+.PartDownload .DownloadPart2 div:hover{background: #1686d9; color: #ffffff; cursor: pointer}
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 

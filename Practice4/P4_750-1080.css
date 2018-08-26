@@ -34,9 +34,12 @@
 /*下载页面的css*/
 .PartDownload{margin-top: 0}
 .PartDownload .BodyChild{flex-direction: column; width: 100%}
+.PartDownload .BodyChild .DownloadPart1{height: 900px}
+.PartDownload .BodyChild .DownloadPart1 .MobileDown{width: 600px}
 .PartDownload .BodyChild div{width: 100%}
 .PartDownload .MobileDown div{width: 130px}
 .PartDownloadBanner{margin-top: 70px}
 .PartDownloadBanner .Body2{height: 600px; background-size: 500px auto; width: 100%; background-position: center 160px; flex-direction: column; justify-content: flex-start}
 .PartDownloadBanner .BodyChild{align-items: center; margin-top: 50px}
 .PartDownloadBanner .BodyChild span{text-align: center}
+.PartDownload .DownloadPart2 div{width: 300px; height: 50px; background: #01e675; border-radius: 25px; color: #ffffff; margin-top: 20px}
