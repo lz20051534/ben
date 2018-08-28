@@ -14,3 +14,7 @@
 
 /*Part-5*/
 .Part5{margin-top: 100px}
+
+/*安全性页面的css*/
+.AnquanBody .BodyChild .Child{width:100%; padding-bottom: 50px; padding-top: 50px}
+.AnquanBody{background: #ffffff; padding-top: 50px; padding-bottom: 50px}

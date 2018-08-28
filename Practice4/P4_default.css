@@ -64,7 +64,7 @@ body{margin: 0; padding: 0}
 .Part4 .Flex_SC span:last-child{width: 70%; font: 14px 微软雅黑; text-align: center; margin-top: 30px; color: #2b2c33} /*右侧文字标题样式*/
 .Part4 .BodyChild .Flex_SE{width: 48%; background: #d0e9ea; height: 100%;} /*左边的box设定宽度和背景颜色*/
 .Part4 .BodyChild .Flex_SC{width: 48%; background: #edf8f5; height: 100%;} /*右边的box设定宽度和背景颜色*/
-#VideBox{width: 260px; height: 260px; border-radius: 130px; background: #77d7c8} /*动画播放区域*/
+#VideBox{width: 260px; height: 260px; border-radius: 130px; background: url(images/MovieGif.gif) no-repeat center center; background-size: 150% auto} /*动画播放区域*/
 
 /*Part-5*/
 .Part5{background: #273443; margin-top: 200px} /*第五部分整体背景*/
@@ -154,4 +154,21 @@ body{margin: 0; padding: 0}
 .PartDownload .DownloadPart2 div:hover{background: #1686d9; color: #ffffff; cursor: pointer}
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*安全性页面的css*/
+.AnquanBanner{width: 100%; height: 499px; background: url(images/safebanner.png) no-repeat center center;background-color: #e4f0e4; margin-top: 90px; background-size: auto 80%}
+.AnquanBody{background: #f8f9fa; padding-top: 100px; padding-bottom: 100px}
+.AnquanBody .BodyChild{background: #ffffff; padding-top: 50px; padding-bottom: 50px; overflow: hidden;}
+.AnquanBody .BodyChild .Child{width: 1080px; padding-bottom: 50px; padding-top: 50px}
+.AnquanBody .importantText{text-align: left; width: 100%;  font-size: 24px; font-weight: normal}
+.AnquanBody .normalText{text-align: left; width: 100%}
+.AnquanBody .BodyChild .Child2 .importantText{text-align: left; width: 650px}
+.AnquanBody .BodyChild .Child2 .normalText{text-align: left; width: 650px}
+.AnquanBody .BodyChild .Child3{width: 45%}
+.AnquanBody .BodyChild .Child3 div{width: 135px; height: 135px; background: #ebf1eb; border-radius: 67px; margin-bottom: 30px;}
+.AnquanBody .BodyChild .Child3 .Anquan1{background: url(images/Anquan-1.png) no-repeat center center; background-size: auto 100%}
+.AnquanBody .BodyChild .Child3 .Anquan2{background: url(images/Anquan-2.png) no-repeat center center; background-size: auto 100%}
+.AnquanBody .BodyChild .Child3 .Anquan3{background: url(images/Anquan-3.png) no-repeat center center; background-size: auto 100%}
+.AnquanBody .BodyChild .Child3 .Anquan4{background: url(images/Anquan-4.png) no-repeat center center; background-size: auto 100%}
+.Part7{margin-top: 0}
 
