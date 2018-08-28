@@ -77,3 +77,13 @@
 
 #VideBox{width: 230px; height: 230px} /*动画播放区域*/
 
+/*安全性页面的css*/
+.AnquanBody{background: #ffffff; padding-top: 50px; padding-bottom: 50px}
+.AnquanBody .BodyChild .Child{width:100%; padding-bottom: 50px; padding-top: 50px}
+.AnquanBody .Child{flex-direction: column}
+.AnquanBody .BodyChild .Child2 .importantText{text-align: left; width: 100%; margin-top: 50px}
+.AnquanBody .BodyChild .Child2 .normalText{text-align: left; width:100%}
+.AnquanBody .BodyChild .Child3{width: 100%; align-items: center;}
+.AnquanBody .BodyChild .Child3 .importantText{text-align: center; width: 80%}
+.AnquanBody .BodyChild .Child3 .normalText{text-align: center; width:80%}
+.AnquanBanner{margin-top: 70px; background-size: auto 70%}

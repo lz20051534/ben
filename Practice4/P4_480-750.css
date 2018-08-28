@@ -61,3 +61,14 @@
 .PartDownloadBanner .BodyChild{align-items: center; margin-top: 50px}
 .PartDownloadBanner .BodyChild span{text-align: center}
 .PartDownload .DownloadPart2 div{width: 300px; height: 50px; background: #01e675; border-radius: 25px; color: #ffffff; margin-top: 20px}
+
+/*安全性页面的css*/
+.AnquanBody{background: #ffffff; padding-top: 50px; padding-bottom: 50px}
+.AnquanBody .BodyChild .Child{width:100%; padding-bottom: 50px; padding-top: 50px}
+.AnquanBody .Child{flex-direction: column}
+.AnquanBody .BodyChild .Child2 .importantText{text-align: left; width: 100%; margin-top: 50px}
+.AnquanBody .BodyChild .Child2 .normalText{text-align: left; width:100%}
+.AnquanBody .BodyChild .Child3{width: 100%; align-items: center;}
+.AnquanBody .BodyChild .Child3 .importantText{text-align: center; width: 80%}
+.AnquanBody .BodyChild .Child3 .normalText{text-align: center; width:80%}
+.AnquanBanner{margin-top: 70px; background-size: auto 70%}
