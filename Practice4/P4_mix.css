@@ -34,7 +34,7 @@
 
 /*Part-4*/
 .Part4 .BodyChild{flex-direction: column; height: auto}
-.Part4 .BodyChild .Flex_SE, .Part4 .BodyChild .Flex_SC{width: 100%; height: 580px} /*上下的box设定宽度和背景颜色*/
+.Part4 .BodyChild .Flex_SE, .Part4 .BodyChild .Flex_SC{width: 100%; padding-top: 30px} /*上下的box设定宽度和背景颜色*/
 .Part4 img{width: 230px}/*图片宽度*/
 
 /*Part-5*/
