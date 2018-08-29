@@ -54,7 +54,7 @@
 .PartChanpin1 .normalText{width: 90%}
 .PartChanpin1 .Chanpin5 img{width: 100px}
 .PartChanpin1 .BodyChild > div{height: auto; padding-top: 20px; padding-bottom: 20px}
-.PartChanpin1 .BodyChild > div:last-child{padding-top: 0}
+.PartChanpin1 .BodyChild > div:last-child , .PartChanpin1 .BodyChild .Chanpin3{padding-top: 0}
 
 /*产品功能页面的banner*/
 .PartChanpinBanner{display: none}
