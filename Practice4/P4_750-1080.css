@@ -31,7 +31,7 @@
 .PartChanpin1{margin-top: 70px;}/*第一部分整体的上边距*/
 .PartChanpinBanner{display: none}
 .PartChanpin1 .BodyChild > div{height: auto; padding-top: 35px; padding-bottom: 35px}
-.PartChanpin1 .BodyChild > div:last-child{padding-top: 0}
+.PartChanpin1 .BodyChild > div:last-child , .PartChanpin1 .BodyChild .Chanpin3{padding-top: 0}
 
 /*下载页面的css*/
 .PartDownload{margin-top: 0}

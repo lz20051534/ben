@@ -46,7 +46,7 @@
 .PartChanpin1 .BodyChild{height: auto; width: 100%}
 .PartChanpin1{margin-top: 60px;}
 .PartChanpin1 .BodyChild > div{height: auto; padding-top: 20px; padding-bottom: 20px}
-.PartChanpin1 .BodyChild > div:last-child{padding-top: 0}
+.PartChanpin1 .BodyChild > div:last-child , .PartChanpin1 .BodyChild .Chanpin3{padding-top: 0}
 
 /*产品功能页面的banner*/
 .PartChanpinBanner{display: none}
