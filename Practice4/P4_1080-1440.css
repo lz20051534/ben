@@ -9,8 +9,8 @@
 .Part1 img{margin-top: 100px}
 
 /*Part-3*/
-.Part3 .BodyChild{flex-wrap: wrap; width: 90%; margin-bottom: 150px; margin-top: 150px}
-.Part3 .Flex_SC:last-child{margin-top: 100px}
+.Part3 .BodyChild{flex-wrap: wrap; width: 90%; margin-bottom: 150px; margin-top: 50px}
+.Part3 .Flex_SC:last-child{margin-top: 50px}
 
 /*Part-5*/
 .Part5{margin-top: 50px}
