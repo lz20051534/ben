@@ -39,17 +39,17 @@ body{margin: 0; padding: 0}
 .DownButton:hover{background: #ffffff; box-sizing: border-box; border: solid 2px #1686d9; color: #1686d9; font-weight: bold}/*立即下载按钮鼠标经过的样式*/
 
 /*网站body-part1PC端*/
-.Part1{height: 1180px; margin-top: 50px} /*定义第一屏的高度*/
+.Part1{height: 1000px; margin-top: 50px} /*定义第一屏的高度*/
 
 /*Part-2*/
-.Part2{background: linear-gradient(to right, #218dd7, #84ccc7); height: 420px}/*第二部分的整个背景*/
+.Part2{background: linear-gradient(to right, #218dd7, #84ccc7); height: 400px}/*第二部分的整个背景*/
 .Part2 span{font: 14px 微软雅黑; text-align: center; width: 80%; margin-top: 20px; color: #ffffff}/*整体文字样式*/
 .Part2 span:first-child{font: 40px 微软雅黑; font-weight: lighter; margin: 0}/*去除第一排文字的margin-top*/
 .Part2 div{width: 170px; height: 45px; background: #ffffff; font: 18px 微软雅黑; border-radius: 22px; color: #2b2c33; margin-top: 40px}/*设置“了解微群聊”按钮的字体样式*/
 .Part2 div:hover{background: #2b2c33; color: #ffffff}/*设置经过“了解微群聊”按钮的字体样式*/
 
 /*Part-3*/
-.Part3 .BodyChild{width: 100%; height: 660px}/*第三部分的整体高度*/
+.Part3 .BodyChild{width: 100%; height: 580px}/*第三部分的整体高度*/
 .Part3 .BodyChild div{width: 450px}/*单个图片项目的宽度*/
 .Part3 img{width: 100%; border-radius: 8px;}/*图片的大小*/
 .Part3 span{font: 30px 微软雅黑; font-weight: lighter; margin-top: 20px; text-align: center}/*设置所有字体的样式*/
@@ -67,7 +67,7 @@ body{margin: 0; padding: 0}
 #VideBox{width: 260px; height: 260px; border-radius: 130px; background: url(images/MovieGif.gif) no-repeat center center; background-size: 150% auto} /*动画播放区域*/
 
 /*Part-5*/
-.Part5{background: #273443; margin-top: 200px} /*第五部分整体背景*/
+.Part5{background: #273443; margin-top: 100px} /*第五部分整体背景*/
 .Part5 .Child{height: 255px; width: 26%} /*底部导航栏分成两个部分，对每个部分进行设定*/
 .Part5 .Child:last-child{margin-left: 13%} /*底部右侧导航栏的左边距*/
 .Part5 .Child div{height: 150px} /*底部四个导航栏，针对每个导航栏设定高度*/
@@ -135,9 +135,9 @@ body{margin: 0; padding: 0}
 .PartDownloadBanner .BodyChild{align-items: flex-start}
 .PartDownloadBanner span{text-align: left; color: #ffffff}
 /*下载页面的css*/
-.PartDownload{margin-top: 90px}
+.PartDownload{margin-top: 40px}
 .PartDownload .BodyChild img{width: 280px;}
-.PartDownload .BodyChild > div{width: 49%;  height: 1000px}
+.PartDownload .BodyChild > div{width: 49%;  height: 900px}
 .PartDownload .DownloadPart1{background: #edf8f5}
 .PartDownload .DownloadPart2{background: #faf7eb}
 .PartDownloadBanner .DownButton {text-decoration: none}
@@ -156,10 +156,10 @@ body{margin: 0; padding: 0}
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*安全性页面的css*/
-.AnquanBanner{width: 100%; height: 499px; background: url(images/safebanner.png) no-repeat center center;background-color: #e4f0e4; margin-top: 90px; background-size: auto 80%}
-.AnquanBody{background: #f8f9fa; padding-top: 100px; padding-bottom: 100px}
-.AnquanBody .BodyChild{background: #ffffff; padding-top: 50px; padding-bottom: 50px; overflow: hidden;}
-.AnquanBody .BodyChild .Child{width: 1080px; padding-bottom: 50px; padding-top: 50px}
+.AnquanBanner{width: 100%; height: 400px; background: url(images/safebanner.png) no-repeat center center;background-color: #e4f0e4; margin-top: 90px; background-size: auto 100%}
+.AnquanBody{background: #f8f9fa; padding-top: 50px; padding-bottom: 50px}
+.AnquanBody .BodyChild{background: #ffffff; padding-top: 20px; padding-bottom: 20px; overflow: hidden;}
+.AnquanBody .BodyChild .Child{width: 1080px; padding-bottom: 20px; padding-top: 20px}
 .AnquanBody .importantText{text-align: left; width: 100%;  font-size: 24px; font-weight: normal}
 .AnquanBody .normalText{text-align: left; width: 100%}
 .AnquanBody .BodyChild .Child2 .importantText{text-align: left; width: 650px}
