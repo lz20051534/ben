@@ -3,6 +3,11 @@
 /*宽度小于750的时候调用*/
 .P4_H1{font: 36px 微软雅黑; font-weight: lighter}
 
+/*文本样式*/
+.smallText{font: 14px 微软雅黑; text-align: center; width: 70%; margin-bottom: 20px; color: #2b2c33; font-weight: lighter}
+.importantText{font: 30px 微软雅黑; font-weight: lighter; color: #2b2c33; text-align: center;width: 70%;}
+.normalText{font: 18spx 微软雅黑; text-align: center; width: 70%; margin-top: 20px; margin-bottom: 20px; color: #2b2c33}
+
 /*头部*/
 .HeadBox2{width: 100%}/*头部里层的框架 默认情况下是1440px，当浏览器尺寸小于750时，宽度变成100%*/
 .HeadBox .Logo{width: 36px} /*手机端非首页 头部logo大小*/
