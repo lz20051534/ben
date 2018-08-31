@@ -1,12 +1,12 @@
 .Body2{width: 100%}/*中层主体100%*/
 /*手机屏幕布局*/
 /*宽度小于750的时候调用*/
-.P4_H1{font: 36px 微软雅黑; font-weight: lighter}
+.P4_H1{font: 36px sans-serif; font-weight: lighter}
 
 /*文本样式*/
-.smallText{font: 14px 微软雅黑; text-align: center; width: 70%; margin-bottom: 20px; color: #2b2c33; font-weight: lighter}
-.importantText{font: 30px 微软雅黑; font-weight: lighter; color: #2b2c33; text-align: center;width: 70%;}
-.normalText{font: 18spx 微软雅黑; text-align: center; width: 70%; margin-top: 20px; margin-bottom: 20px; color: #2b2c33}
+.smallText{font: 14px sans-serif; text-align: center; width: 70%; margin-bottom: 20px; color: #2b2c33; font-weight: lighter}
+.importantText{font: 30px sans-serif; font-weight: lighter; color: #2b2c33; text-align: center;width: 70%;}
+.normalText{font: 18spx sans-serif; text-align: center; width: 70%; margin-top: 20px; margin-bottom: 20px; color: #2b2c33}
 
 /*头部*/
 .HeadBox2{width: 100%}/*头部里层的框架 默认情况下是1440px，当浏览器尺寸小于750时，宽度变成100%*/
@@ -14,7 +14,7 @@
 .HeadBox span{font-size: 18px; margin-left: 6px} /*手机端非首页 头部logo大小*/
 .HeadBody div,.HeadBody a{display: none}/*隐藏logo和logo文字*/
 #iconZixun{display: block}/*显示资讯的按钮*/
-#iconZixun:hover{color: #1686d9}/*资讯按钮的鼠标滑动样式*/
+#iconZixun:hover{color: #fdff9c}/*资讯按钮的鼠标滑动样式*/
 .HeadBox{height: 50px}/*导航的宽度降为50px*/
 .HeadChanpinGongneng a{display: flex}
 .HeadChanpinGongneng{height: 60px;}
@@ -67,7 +67,7 @@
 .PartDownload .BodyChild div{width: 100%}
 .PartDownload .MobileDown div{width: 130px}
 .PartDownloadBanner{margin-top: 60px}
-.PartDownloadBanner .Body2{height: 300px; background-size: 500px auto; width: 100%; background-position: center 160px; flex-direction: column; justify-content: center}
+.PartDownloadBanner .Body2{height: 256px; background: none; flex-direction: column; justify-content: center}
 .PartDownloadBanner .BodyChild{align-items: center}
 .PartDownloadBanner .BodyChild span{text-align: center}
 .PartDownload .DownloadPart2 div{width: 300px; height: 50px; background: #01e675; border-radius: 25px; color: #ffffff; margin-top: 20px}
@@ -82,3 +82,37 @@
 .AnquanBody .BodyChild .Child3 .importantText{text-align: center; width: 80%}
 .AnquanBody .BodyChild .Child3 .normalText{text-align: center; width:80%}
 .AnquanBanner{margin-top: 60px; height: 200px}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*联系我们页面的css*/
+.Lianxi{padding-top: 0px; padding-bottom: 0px;margin-top: 50px}  /*联系我们页面的总背景，以及上下的间距*/
+.Lianxi .importantText{margin-top: 30px}
+.Lianxi .Body2{padding-top: 20px; padding-bottom: 20px; box-shadow: none}
+.Lianxi .BodyChild > div:first-child{margin-bottom: 10px}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*常见问题页面的css*/
+.PartWenti .importantText{font: 20px sans-serif}
+.PartWenti .Body2 .BodyChild > div:first-child{font: 26px sans-serif; color: #666666}
+.PartWenti .searchBox > div{color: #1cb39b;}
+.PartWenti form{width: 90%; margin: 0; height: 45px;}
+.PartWenti .searchBox{margin-top: 60px}
+.PartWenti .BodyChild{padding-top: 20px; padding-bottom: 50px}
+.PartWenti .searchBox{height: 90px;}
+.PartWenti .searchBox h1, .PartWenti .searchBox div{display: none}
+.PartWenti .BodyChild .Flex_HS{flex-direction: column;justify-content: flex-start; align-items: flex-start}
+.PartWenti .BodyChild > div > div > div{margin-top: 20px; width: 100%}
+.PartWenti .BodyChild > div > div{margin-top: 20px; width: 100%}
+.PartWenti .BodyChild > div > div > div .normalText{box-sizing: border-box; padding-bottom:10px; border-bottom: solid 1px #e7e7e7; width: 100%}
+.PartWenti .BodyChild > div > div > div .normalText:last-child{border: none}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*关于我们页面的css*/
+.AboutUS{margin-top: 60px}
+.AboutUS .Body2{padding: 30px 0px 60px 0px}
+.AboutUS .importantText{width: 90%; margin-top: 20px; margin-bottom: 20px}
+.AboutUS .normalText{width: 90%}
+.AboutUS ._aboutFirst > span{margin-top: 30px} .AboutUS ._aboutFirst > span:first-child{margin: 0} .AboutUS ._aboutFirst > span:last-child{margin-top: 20px}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
