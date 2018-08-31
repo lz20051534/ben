@@ -24,8 +24,17 @@
 .AnquanBody .BodyChild .Child2 .normalText{text-align: left; width:100%}
 .AnquanBanner{height: 300px}
 
-.PartDownloadBanner .Body2{height: 400px; background-size: 450px auto}
+.PartDownloadBanner .Body2{height: 400px; background-size: 400px auto}
 .PartDownload{margin-top: 30px}
 .PartDownload .BodyChild > div{width: 49%;  height: 800px}
 .PartDownload .MobileDown{width: 80%; margin-top: 60px; margin-bottom: 60px}
 .PartDownload .DownloadPart2 > img{margin-top: 60px; margin-bottom: 60px}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*联系我们页面的css*/
+.Lianxi{padding-top: 0px; padding-bottom: 0px}  /*联系我们页面的总背景，以及上下的间距*/
+.Lianxi .importantText{margin-top: 30px}
+.Lianxi .Body2{padding-top: 50px; padding-bottom: 50px; box-shadow: none}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
