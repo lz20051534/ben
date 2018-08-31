@@ -196,7 +196,7 @@ body{margin: 0; padding: 0}
 .PartWenti .searchBox{height: 269px; background: #e4f0e4; width: 100%; margin-top: 90px}
 .PartWenti .searchBox > div{color: #1cb39b;}
 .PartWenti form{width: 680px; height: 50px; margin-top: 10px; margin-bottom: 10px}
-.PartWenti  input{box-sizing: border-box; width: 100%; height: 100%;  border-radius: 25px; border: none; padding-left: 30px; font: 20px sans-serif;}
+.PartWenti  input{box-sizing: border-box; outline: none; width: 100%; height: 100%;  border-radius: 25px; border: none; padding-left: 30px; font: 20px sans-serif;}
 .PartWenti a{text-decoration: none}
 .PartWenti{background: #f8f9fa}
 .PartWenti .Body2{background: #ffffff}
