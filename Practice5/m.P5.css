@@ -1,0 +1,32 @@
+body{transition: 1s; margin: 0; padding: 0; display: flex; align-items: center; flex-direction: column; width: 100%}
+.flexHC{display: flex; justify-content: center; align-items: center}
+.flexHS{display: flex; justify-content: space-between; align-items: center}
+.fontH1{font: 36px 微软雅黑}  .fontH3{font: 18px 微软雅黑}
+
+/*头部样式*/
+.headP5{overflow: hidden; width: 100%; height: 70px; background: #303138}
+.headChild{width: 90%}
+.headChild div{background: url(images/bottom-down.png); width: 122px; height: 38px}
+.headChild div span{margin-top: -1px; margin-left: 1px}
+.headP5 a{text-decoration: none; font: 14px 微软雅黑; color: #000000}
+
+.caiZhong{width: 100%; overflow: hidden}
+.fontBox{width: 90%; height: 240px; display: flex; justify-content: center; flex-direction: column}
+
+.jmhz{width: 90%; height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: #ffffff; margin-bottom: 20px}
+.jmhz img{margin-bottom: 50px}
+.jmhz > span{width: 90%; text-align: center}
+.jmhz1{background: #83a6ff}
+.jmhz2{background: #e0ae2f}
+.jmhz3{background: #d173a4}
+.jmhz4{background: #5ec4e2}
+
+.downLoad{width: 100%; height: 800px; background: #eeeeee; display: flex; flex-direction: column; justify-content: center; align-items: center}
+.downLoadBox{width: 90%; height: 600px;  box-sizing: border-box; border-top: solid 1px #cccccc; border-bottom: solid 1px #cccccc; display: flex; align-items: center; flex-direction: column; justify-content: center}
+.downText{display: flex; justify-content: center; align-items: center; flex-direction: column; width: 80%}
+.banBen{font: 26px 微软雅黑}
+.downLink{margin-top: 20px; display: flex; flex-direction: column; width: 100%}
+.linkTop{display: flex; justify-content: center; width: 100%}
+.linkBottom{margin-top: 8px; display: flex; justify-content: center; width: 100%}
+.downLoad a{color: #000000; text-decoration: none}
+.downLoad a:hover{color: red}
