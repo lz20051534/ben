@@ -1,0 +1,45 @@
+body{transition: 1s; margin: 0; padding: 0; display: flex; align-items: center; flex-direction: column}
+.flexHC{display: flex; justify-content: center; align-items: center}
+.flexHS{display: flex; justify-content: space-between; align-items: center}
+.fontH1{font: 36px 微软雅黑}  .fontH3{font: 18px 微软雅黑}
+
+/*头部样式*/
+.headP5{overflow: hidden; width: 1920px; height: 120px; background: #303138}
+.headChild{width: 1024px}
+.headChild div{background: url(images/bottom-down.png); width: 122px; height: 38px}
+.headChild div span{margin-top: -1px; margin-left: 1px}
+.headP5 a{text-decoration: none; font: 14px 微软雅黑; color: #000000}
+
+/*视频模块*/
+.videoBox{width: 1920px; height: 860px; background:url(images/background-video.png); overflow: hidden}
+
+/*彩种齐全*/
+.caiZhong{width: 1920px; height: 860px; background:url(images/caiZhong.png); overflow: hidden; display: flex; justify-content: center; overflow: hidden}
+.fontBox{width: 1024px; height: 280px; display: flex; justify-content: flex-end; flex-direction: column; align-items: flex-end}
+.fontBox span{margin-top: 8px}
+
+.wanFa{width: 1920px; height: 855px; background:url(images/wanFa.png); overflow: hidden; display: flex; justify-content: center; overflow: hidden}
+.wanFa div{width: 1024px; height: 320px; display: flex; justify-content: flex-end; flex-direction: column; color: #ffffff}
+
+.youShi{width: 1920px; height: 1280px; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center}
+.youShi > div{width: 1024px; height: 554px; display: flex; justify-content: space-between}
+.youShi .jmhz{width: 496px; height: 554px; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; color: #ffffff}
+.youShiChild2{margin-top: 30px}
+.jmhzChild3{margin-bottom: 100px}
+.jmhz1{background: url(images/jmhz.png)}
+.jmhz2{background: url(images/zyfw.png)}
+.jmhz3{background: url(images/yhhd.png)}
+.jmhz4{background: url(images/mfsw.png)}
+
+.downLoad{width: 100%; height: 500px; background: #eeeeee; display: flex; flex-direction: column; justify-content: center; align-items: center}
+.downLoadBox{width: 1024px; height: 220px;  box-sizing: border-box; border-top: solid 1px #cccccc; border-bottom: solid 1px #cccccc; display: flex; align-items: center}
+.downBOXLeft{width: 511px; height: 220px; display: flex; align-items: center}
+.downBOXRight{width: 511px; height: 220px; display: flex; align-items: center; justify-content: flex-end}
+.downLoad > span{margin-bottom: 60px}
+.downText{margin-left: 64px}
+.banBen{font: 26px 微软雅黑}
+.downLink{width: 268px; height: 52px; margin-top: 20px}
+.linkTop, .linkBottom{width: 100%; display: flex; justify-content: space-between}
+.linkBottom{margin-top: 8px}
+.downLoad a{color: #000000; text-decoration: none}
+.downLoad a:hover{color: red}
