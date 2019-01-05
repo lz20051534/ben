@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body style="background:url(images/Background.png) no-repeat" class="">
+  <div id="app" class="page">
+    <!---->
+    <section>
+      <header class="header">
+        <nav class="wrapper flex flex-pack-justify">
+          <div class="l flex">
+            <a style="margin-top: 9px; margin-right: 40px;" href="index.html"><img src="images/logo.png" height="48px"></a>
+            <div class="menu flex">
+              <div class="item active"><a href="#/Betting/2351#" class="">首页</a></div>
+              <div class="item"><a href="#/Betting/2351#" class="">游戏资讯</a></div>
+              <div class="item"><a href="#/Betting/2351#" class="">优惠活动</a></div>
+              <div class="item"><a href="#/Betting/2351#" class="">玩法规则</a></div>
+            </div>
+          </div>
+          <div class="r"><a href="#" class="down"><i class="iconfont bz-mobile"></i>APP下载</a> <a class="btn btn2">登录</a>
+            <a class="btn btn3">注册</a>
+            <!---->
+          </div>
+        </nav>
+      </header>
+      <section class="main">
+        <div class="wrapper">
+          <nav id="gamebox" class="gamebox clearfix">
+            <div class="navbet" id="navBet">
+              <div class="container-info">
+                <div class="head"><span tag="span" class="return"><i class="iconfont bz-zuo1"></i></span></div>
+                <div class="title"><i class="iconfont iconfont bz-swxf swxf"></i>
+                  挑战者系列赛-韩国 / BO5
+                </div>
+                <div class="bd flex flex-pack-center">
+                  <div class="tm">
+                    <div>
+                      <h2>MVP Space</h2> <span>2.00</span> <label>全场获胜者</label>
+                    </div> <img data-src="https://s3-ap-southeast-1.amazonaws.com/ferrari-imgs/7387b3db35034a24aee202863d0eb860.png"
+                      src="https://s3-ap-southeast-1.amazonaws.com/ferrari-imgs/7387b3db35034a24aee202863d0eb860.png"
+                      lazy="loaded">
+                  </div>
+                  <div class="bf wks">
+                    <div>01月05日 (周六) </div>
+                    <div class="big">12:00</div>
+                    <div>未开始</div>
+                  </div>
+                  <!---->
+                  <!---->
+                  <div class="tm"><img data-src="https://s3-ap-southeast-1.amazonaws.com/ferrari-imgs/4c71c6614dc44ab4a409730148e01b67.png"
+                      src="https://s3-ap-southeast-1.amazonaws.com/ferrari-imgs/4c71c6614dc44ab4a409730148e01b67.png"
+                      lazy="loaded">
+                    <div>
+                      <h2>Storm Quake</h2> <span>1.72</span> <label>全场获胜者</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!---->
+              <div class="container-main">
+                <div class="gameSlider">
+                  <ul class="clearfix">
+                    <li id="tab_all" class="on">全部</li>
+                    <li id="tab_match_winner" class="">
+                      获胜者
+                    </li>
+                  </ul>
+                </div>
+                <div class="list clearfix">
+                  <div element-loading-background="rgba(0, 0, 0, .1)" class="item" style="margin-top: 10px; display: none;">
+                    <div class="el-loading-mask" style="background-color: rgba(0, 0, 0, 0.1); display: none;">
+                      <div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular">
+                          <circle cx="50" cy="50" r="20" fill="none" class="path"></circle>
+                        </svg>
+                        <!---->
+                      </div>
+                    </div>
+                  </div>
+                  <section id="sec_match_winner">
+                    <div class="item">
+                      <div class="tit"><em></em>全场 - 获胜者</div>
+                      <div class="oddrow clearfix">
+                        <div><span>SQ</span> <span class="btn btn1 "><i class="iconfont "></i>1.72</span>
+                          <!---->
+                          <!---->
+                        </div>
+                        <div>
+                          <!---->
+                          <!----> <span class="btn btn1 ">2.00<i class="iconfont "></i></span> <span>MVPS</span></div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <div id="betbox" class="betbox">
+              <div class="tabs clearfix"><span class="active">投注列表</span> <span class="">投注记录</span></div>
+              <div class="record">
+                <div class="vw active vk">
+                  <div class="nodata" style="height: 200px !important;">暂无注单</div>
+                  <div id="list" class="list" style="height: 230px; display: none;">
+                    <div class="el-scrollbar" id="scroll_list">
+                      <div class="el-scrollbar__wrap" style="margin-bottom: -17px; margin-right: -17px;">
+                        <div class="el-scrollbar__view"></div>
+                      </div>
+                      <div class="el-scrollbar__bar is-horizontal">
+                        <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+                      </div>
+                      <div class="el-scrollbar__bar is-vertical">
+                        <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!---->
+                </div>
+                <div class="vw bw">
+                  <div class="tabs2 clearfix"><span class="active">未结算</span> <span class="">已结算</span></div>
+                  <div class="nodata" style="height: 200px !important;">暂无记录</div>
+                  <div element-loading-background="rgba(0, 0, 0, .1)" class="nodata" style="display: none;"></div>
+                  <div id="list2" class="list" style="height: 230px !important; display: none;">
+                    <div class="el-scrollbar" id="scroll_list2" style="display: none;">
+                      <div class="el-scrollbar__wrap" style="margin-bottom: -17px; margin-right: -17px;">
+                        <div class="el-scrollbar__view"></div>
+                      </div>
+                      <div class="el-scrollbar__bar is-horizontal">
+                        <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+                      </div>
+                      <div class="el-scrollbar__bar is-vertical">
+                        <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <footer class="footer">
+        <nav class="wrapper">
+          <div class="gameBackground" id="geme-lol" onclick="document.getElementById('navBet').style.background = 'url(images/lol.png)'">英雄联盟</div>
+          <div class="gameBackground" id="geme-dota2" onclick="document.getElementById('navBet').style.background = 'url(images/dota2.png)'">Dota2</div>
+          <div class="gameBackground" id="geme-lscs" onclick="document.getElementById('navBet').style.background = 'url(images/lscs.png)'">炉石传说</div>
+          <div class="gameBackground" id="geme-CSGO" onclick="document.getElementById('navBet').style.background = 'url(images/csgo.png)'">CSGO</div>
+          <div class="gameBackground" id="geme-swxf" onclick="document.getElementById('navBet').style.background = 'url(images/swxf.png)'">守望先锋</div>
+          <div class="gameBackground" id="geme-wary" onclick="document.getElementById('navBet').style.background = 'url(images/wzry.png)'">王者荣耀</div>
+        </nav>
+      </footer>
+    </section>
+  </div>
+  <!-- built files will be auto injected -->
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>008彩票下载页面</title>
+    <!--css-start-->
+    <link rel="stylesheet" href="m.P5.css" />
+    <!--css-end-->
+</head>
+
+<body>
+    <div class="headP5 flexHC">
+        <div class="headChild flexHS">
+            <img src="images/logo-phone.png" width="120" />
+            <div class="flexHC" style="cursor: pointer;" id="downLoadButton">
+                <a id="Xiazai" href="#downLoad">下载</a>
+            </div>
+        </div>
+    </div>
+    <video src="images/video008.mp4" controls="controls" width="100%" muted autoplay="autoplay" loop="loop"></video>
+    <div class="caiZhong flexHC">
+        <img src="images/caiZhong.png" alt="" width="150%">
+    </div>
+    <div class="fontBox">
+        <span class="fontH1">彩种齐全</span><br />
+        <span class="fontH3">008彩票拥有多元化的产品，使用最公平、公正、公开的系统涵盖的彩种非常广泛，有北京赛车系列、时时彩系列、六合彩、牛牛，快彩等常见彩种。</span>
+    </div>
+
+    <div class="caiZhong flexHC">
+        <img src="images/wanFa.png" alt="" width="150%">
+    </div>
+    <div class="fontBox">
+        <span class="fontH1">玩法公正</span><br />
+        <span class="fontH3">每个彩种都有市面上最全面的玩法，我们使用最公平、公正、公开的系统，在市场上的众多购彩APP中名列前茅。</span>
+    </div>
+    <div class="jmhz jmhz1">
+        <img src="images/合作 (2).png" alt="">
+        <span class="fontH1">加盟合作</span><br />
+        <span class="fontH3">无论拥有的是网络资源，或是人脉资源，都欢迎您来加入008彩票合作伙伴的行列</span>
+    </div>
+    <div class="jmhz jmhz2">
+        <img src="images/服务 (1).png" alt="">
+        <span class="fontH1">专业服务</span><br />
+        <span class="fontH3">行业专业10年行业经验，资金力量雄厚，稳定运营，为您提供最专业的服务，充提闪电到账</span>
+    </div>
+    <div class="jmhz jmhz3">
+        <img src="images/钱袋.png" alt="">
+        <span class="fontH1">优惠活动</span><br />
+        <span class="fontH3">不定期经常进行大型优惠活动，如提高六合彩的倍率、充值返现等，活动力度大，深受彩友追捧</span>
+    </div>
+    <div class="jmhz jmhz4">
+        <img src="images/免费.png" alt="">
+        <span class="fontH1">免费试玩</span><br />
+        <span class="fontH3">游客用户可免费试玩，赠送10000元免费体验额度，体验我们的服务，并且能进入聊天室</span>
+    </div>
+    <div class="downLoad" id="downLoad">
+        <span class="fontH1" style="margin-bottom: 50px">下载地址</span>
+        <div class="downLoadBox">
+            <img src="images/安卓logo.png" alt="">
+            <div class="downText">
+                <span class="banBen" style="margin-top:20px">安卓版</span>
+                <div class="downLink">
+                    <div class="linkTop">
+                        <a href="app/cp.apk">电信下载地址</a>
+                        <a style="margin-left:40px" href="app/cp.apk">网通下载地址</a>
+                    </div>
+                    <div class="linkBottom">
+                        <a href="app/cp.apk">铁通下载地址</a>
+                        <a style="margin-left:40px" href="app/cp.apk">联通下载地址</a>
+                    </div>
+                </div>
+            </div>
+            <img src="images/苹果logo.png" alt="" style="margin-top:40px">
+            <div class="downText">
+                <span class="banBen" style="margin-top:20px">苹果版</span>
+                <div class="downLink">
+                    <div class="linkTop">
+                        <a href="app/cp.apk">电信下载地址</a>
+                        <a style="margin-left:40px" href="app/cp.apk">网通下载地址</a>
+                    </div>
+                    <div class="linkBottom">
+                        <a href="app/cp.apk">铁通下载地址</a>
+                        <a style="margin-left:40px" href="app/cp.apk">联通下载地址</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+
+
+
+<script>
+    document.getElementById('downLoadButton').onmouseenter = function () {
+        document.getElementById('Xiazai').style.color = "red";
+    }
+    document.getElementById('downLoadButton').onmouseleave = function () {
+        document.getElementById('Xiazai').style.color = "black";
+    }
+    document.getElementById('downLoadButton').onclick = function () {
+        window.location.href = "#downLoad";
+    }
+</script>
+
+</html>
