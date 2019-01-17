@@ -39,8 +39,11 @@ body{margin: 0;}
 .cpt-caizhong .box-child{height: 80px; margin-top: 40px}
 .cpt-caizhong .box-child:first-child{margin-top: 0}
 .cpt-caizhong .caizhongBox{width: 72px; height: 78px; padding-top: 8px; padding-bottom: 10px;}
-.cpt-caizhong .caizhongBox:active{background: #24262D;}
+.cpt-caizhong .caizhongBox:active{background: #1C2228;}
+.cpt-caizhong .caizhongBox:active span{color: #E5B77C;}
 .cpt-caizhong img{height: 55px;}
+
+.cpt-footer{height: 60px; position: fixed; bottom: 0; background: #1B1C28;}
 
 /*副样式为PC端（页面宽度大于750px）*/
 @media only screen and (min-width: 480px){
