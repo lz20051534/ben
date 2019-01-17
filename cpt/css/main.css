@@ -9,6 +9,7 @@ body{margin: 0;}
 .flex-ssc{display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
 .flex-scc{display: flex; flex-direction: column; justify-content: center; align-items: center;}
 .font-default{font-family: Arial, Helvetica, sans-serif; font-size: 0.75rem; color: #dddddd;}
+.font-sousuo{font-family: Arial, Helvetica, sans-serif; font-size: 0.75rem; color: #898989;}
 .cpt-fengexian{width: 100%; background: #1c1d27; height: 12px;}
 
 /*系统头部的高度*/
@@ -17,7 +18,9 @@ body{margin: 0;}
 
 /*头部的样式*/
 .cpt-head{height: 48px;}
-.cpt-head img{height: 30px;}
+.cpt-head img{height: 26px;}
+.cpt-head .head-sousuo{width: 50%; height: 26px; border-radius: 15px; background: #dddddd}
+.cpt-head .head-sousuo img{width: 14px; height: 14px; margin-left: 12px; margin-right: 12px;}
 .cpt-head .head-icon1{width: 30px; height: 30px; background: url(../images/head-kefu.svg) no-repeat;}
 .cpt-head .head-icon1:active{background: url(../images/head-kefu-hover.svg) no-repeat;}
 .cpt-head .head-icon2{width: 30px; height: 30px; background: url(../images/head-xiaoxi.svg) no-repeat;}
