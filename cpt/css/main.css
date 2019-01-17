@@ -40,7 +40,7 @@ body{margin: 0;}
 .cpt-caizhong .box-child:first-child{margin-top: 0}
 .cpt-caizhong .caizhongBox{width: 72px; height: 72px; padding-top: 8px; padding-bottom: 8px;}
 .cpt-caizhong .caizhongBox:active{background: #26272B;}
-.cpt-caizhong img{width: 50px;}
+.cpt-caizhong img{height: 44px;}
 
 /*副样式为PC端（页面宽度大于750px）*/
 @media only screen and (min-width: 480px){
