@@ -17,6 +17,7 @@ body{margin: 0;}
 .font-sousuo{font-family: Arial, Helvetica, sans-serif; font-size: 0.75rem; color: #898989;}
 .cpt-fengexian{width: 100%; background: #1B1C28; height: 12px;}
 .cpt-fengexianSmall{width: 100%; background: #1B1C28; height: 1px;}
+.have-news{background: #E23737; width: 8px; height: 8px; position: relative; z-index: 99; top: 0; float: right; right: 0; border-radius: 4px;}
 
 /*系统头部的高度*/
 .system-head{height: 20px; position: fixed; top: 0; background: #1B1C28;}
@@ -27,12 +28,16 @@ body{margin: 0;}
 .cpt-head img{height: 26px;}
 .cpt-head .head-sousuo{width: 50%; height: 26px; border-radius: 15px; background: #dddddd;}
 .cpt-head .head-sousuo img{width: 14px; height: 14px; margin-left: 12px; margin-right: 12px;}
-.cpt-head .head-icon1{width: 30px; height: 30px; background: url(../images/head-kefu.svg) no-repeat;}
-.cpt-head .head-icon1:active{background: url(../images/head-kefu-hover.svg) no-repeat;}
-.cpt-head .head-icon2{width: 30px; height: 30px; background: url(../images/head-xiaoxi.svg) no-repeat;}
-.cpt-head .head-icon2:active{background: url(../images/head-xiaoxi-hover.svg) no-repeat;}
-.cpt-head .head-icon3{width: 30px; height: 30px; background: url(../images/head-huodong.svg) no-repeat;}
-.cpt-head .head-icon3:active{background: url(../images/head-huodong-hover.svg) no-repeat;}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+.cpt-head .head-icon1{width: 26px; height: 26px; background: url(../images/head-kefu.svg) #dddddd center center no-repeat; background-size: 18px auto; border-radius: 13px;}
+.cpt-head .head-icon1:active{background: url(../images/head-kefu.svg) #F9DB8F center center no-repeat; background-size: 18px auto;}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+.cpt-head .head-icon2{width: 26px; height: 26px; background: url(../images/head-xiaoxi.svg) #dddddd center center no-repeat; background-size: 16px auto; border-radius: 13px;}
+.cpt-head .head-icon2:active{background: url(../images/head-xiaoxi.svg) #F9DB8F center center no-repeat; background-size: 16px auto;}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+.cpt-head .head-icon3{width: 26px; height: 26px; background: url(../images/head-huodong.svg) #dddddd center center no-repeat; background-size: 16px auto; border-radius: 13px;}
+.cpt-head .head-icon3:active{background: url(../images/head-huodong.svg) #F9DB8F center center no-repeat; background-size: 16px auto;}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
 .cpt-head .button-head{width: 114px;}
 
 .cpt-banner{width: 100%; display: block; margin-top: 68px;}
