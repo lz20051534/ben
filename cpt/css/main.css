@@ -29,13 +29,13 @@ body{margin: 0;}
 .cpt-head .head-sousuo{width: 50%; height: 26px; border-radius: 15px; background: #dddddd;}
 .cpt-head .head-sousuo img{width: 14px; height: 14px; margin-left: 12px; margin-right: 12px;}
 /*------------------------------------------------------------------------------------------------------------------------------------*/
-.cpt-head .head-icon1{width: 26px; height: 26px; background: url(../images/head-kefu.svg) #dddddd center center no-repeat; background-size: 18px auto; border-radius: 13px;}
+.cpt-head .head-icon1{width: 26px; height: 26px; background: url(../images/head-kefu.svg) #dddddd center center no-repeat; background-size: 18px auto; border-radius: 50%;}
 .cpt-head .head-icon1:active{background: url(../images/head-kefu.svg) #F9DB8F center center no-repeat; background-size: 18px auto;}
 /*------------------------------------------------------------------------------------------------------------------------------------*/
-.cpt-head .head-icon2{width: 26px; height: 26px; background: url(../images/head-xiaoxi.svg) #dddddd center center no-repeat; background-size: 16px auto; border-radius: 13px;}
+.cpt-head .head-icon2{width: 26px; height: 26px; background: url(../images/head-xiaoxi.svg) #dddddd center center no-repeat; background-size: 16px auto; border-radius: 50%;}
 .cpt-head .head-icon2:active{background: url(../images/head-xiaoxi.svg) #F9DB8F center center no-repeat; background-size: 16px auto;}
 /*------------------------------------------------------------------------------------------------------------------------------------*/
-.cpt-head .head-icon3{width: 26px; height: 26px; background: url(../images/head-huodong.svg) #dddddd center center no-repeat; background-size: 16px auto; border-radius: 13px;}
+.cpt-head .head-icon3{width: 26px; height: 26px; background: url(../images/head-huodong.svg) #dddddd center center no-repeat; background-size: 16px auto; border-radius: 50%;}
 .cpt-head .head-icon3:active{background: url(../images/head-huodong.svg) #F9DB8F center center no-repeat; background-size: 16px auto;}
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 .cpt-head .button-head{width: 114px;}
