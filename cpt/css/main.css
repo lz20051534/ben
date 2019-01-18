@@ -10,7 +10,7 @@ body{margin: 0;}
 .flex-scc{display: flex; flex-direction: column; justify-content: center; align-items: center;}
 .flex-slc{display: flex; flex-direction: column; justify-content: center;}
 .font-default{font-family: Arial, Helvetica, sans-serif; font-size: 0.75rem; color: #dddddd;}
-.font-news-headLine{font-family: Arial, Helvetica, sans-serif; font-size: 1rem; color: #dddddd;}
+.font-news-headLine{font-family: Arial, Helvetica, sans-serif; font-size: 1rem; color: #dddddd; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; margin-right: 10px}
 .font-news-text{font-family: Arial, Helvetica, sans-serif; font-size: 0.75rem; color: #9e9e9e;}
 .font-headLine{font-family: Arial, Helvetica, sans-serif; font-size: 1rem; color: #E5B77C;}
 .font-sousuo{font-family: Arial, Helvetica, sans-serif; font-size: 0.75rem; color: #898989;}
@@ -39,6 +39,7 @@ body{margin: 0;}
 .cpt-gonggao{height: 30px; background: #252A33;}
 .cpt-gonggao img{height: 12px;}
 .cpt-gonggao span{margin-left: 12px;}
+.cpt-gonggao .font-gonggao{overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:1;}
 
 .cpt-caizhong{padding-top: 30px; padding-bottom: 40px; background: #252A33;}
 .cpt-caizhong .box-child{height: 80px; margin-top: 40px}
@@ -63,9 +64,9 @@ body{margin: 0;}
 .cpt-newsList:active{background: #29303A;}
 .cpt-newsList:active .font-news-headLine{color: #E5B77C;}
 .cpt-newsList .font-news-text{margin-top: 10px;}
-.cpt-newsList .news-img{width: 110px; height: 80px;}
-.cpt-newsList .news-img1{background: url(../images/news-img1.png);background-size: 100% 100%}
-.cpt-newsList .news-img2{background: url(../images/news-img2.png);background-size: 100% 100%}
+.cpt-newsList .news-img{min-width: 110px; height: 80px;}
+.cpt-newsList .news-img1{background: url(../images/news-img1.png); background-size: 100% 100%}
+.cpt-newsList .news-img2{background: url(../images/news-img2.png); background-size: 100% 100%}
 
 .cpt-footerNone{height: 59px;}
 
@@ -75,5 +76,5 @@ body{margin: 0;}
     .box-father{width: 480px;}/*固定手机尺寸为480*/
     .cpt-banner{width: 480px;}
     .cpt-fengexian{width: 480px; height: 12px;}
-    .cpt-fengexianSmall{width: 480px; height: 12px;}
+    .cpt-fengexianSmall{width: 480px;}
 }
