@@ -2,10 +2,6 @@ var $systemHeda = document.getElementById('systemHead');
 var $cptHead = document.getElementById('cptHead');
 var systemTime = null;
 window.onload = function () {
-    if (/Android|webOS|iPhone|iPod|BlackBerry|Windows Phone|SymbianOS/.test(navigator.userAgent)) {
-        $systemHeda.style.display = 'none';
-        $cptHead.style.top = '0';
-    }
     startTime();//调用时间函数
 }
 function startTime() {
