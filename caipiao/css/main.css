@@ -45,7 +45,7 @@
 .cpt-gonggao span{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 
 .cpt-banner{height: 116px; background: #ffffff;}
-.cpt-banner .banner-other{width: 8px; height: 86px;}
+.cpt-banner .banner-other{width: 8px; height: 86px; background: #E5B77C;}
 .cpt-banner .otherLeft{border-top-right-radius: 8px; border-bottom-right-radius: 8px;}
 .cpt-banner .otherRight{border-top-left-radius: 8px; border-bottom-left-radius: 8px;}
 .cpt-banner .banner-main{width: 90%; height: 86px; border-radius: 8px; background: #E23737;}
