@@ -19,8 +19,8 @@ body{margin: 0;}
 .cpt-footer{background: #fafbff; position: fixed; bottom: 0; height: 55px; border-top: 1px solid #e0e1e3;}
 .cpt-footerNone{height: 55px;}
 .cpt-footer img{height: 25px; margin-bottom: 4px;}
-.font-footer{font: 10px 微软雅黑; color: #bbbbbb;}
-.font-footer-hover{font: 10px 微软雅黑; color: #1B82D1;}
+.font-footer{font: 12px 微软雅黑; color: #bbbbbb;}
+.font-footer-hover{font: 12px 微软雅黑; color: #1B82D1;}
 .cpt-footer .foot-child{width: 25%; text-decoration: none;}
 
 /*副样式为PC端（页面宽度大于750px）*/
