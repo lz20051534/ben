@@ -22,13 +22,12 @@
 .cpt-head .head-icon2:active{opacity: 0.5;}
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 
-.adviceList{height: 80px; background: #1B82D1; position: fixed; top: 75px;}
+.adviceList{height: 80px; background: #1B82D1; margin-top: 75px;}
 .adviceList img{height: 42px; margin-bottom: 0.2rem;}
 .adviceList-child{width: 25%; height: 100%;}
 .adviceList .adviceList-child:active{opacity: 0.5;}
 
 .adviceCaizhong{height: 100px; background: #ffffff;}
-.adviceCaizhongFirst{margin-top: 155px;}
 .adviceCaizhong img{height: 40px; margin-bottom: 6px;}
 .adviceCaizhong .adviceList-child:active{background: #f5f5f5;}
 .adviceCaizhong .adviceList-child:active img{filter: grayscale(100%);}
@@ -38,24 +37,32 @@
 .cpt-gonggao span{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 
 .cpt-banner{height: 116px; background: #ffffff;}
-.cpt-banner .banner-other{width: 8px; height: 86px; background: #E5B77C;}
+.cpt-banner .banner-other{width: 8px; height: 86px; background: rgb(248, 223, 190);}
 .cpt-banner .otherLeft{border-top-right-radius: 8px; border-bottom-right-radius: 8px;}
 .cpt-banner .otherRight{border-top-left-radius: 8px; border-bottom-left-radius: 8px;}
-.cpt-banner .banner-main{width: 90%; height: 86px; border-radius: 8px; background: #E23737;}
+.cpt-banner .banner-main{width: 90%; height: 86px; border-radius: 8px; background: url(../images/png/banner.png) no-repeat center center; background-size: 100% auto;}
 
 .news-headLine{height: 48px; background: #ffffff;}
 .news-headLine img{margin-left: 8px;}
 .news-more:active{opacity: 0.5;}
 .news-List{height: 124px; background: #ffffff;}
 .news-List img{height: 80px;}
+.news-List .box-child{width: 90%;}
 .news-List .font-news-headLine{margin-bottom: 8px;}
 .news-List .font-news-headLine img{height: 14px;}
-.news-List .font-news-text img{height: 14px; margin-right: 4px;}
+.news-List .font-news-text img{height: 17px; margin-right: 4px;}
 .list-xinxi{width: 85%;}
 .news-List:active{background: #f5f5f5;}
 
+.dixian{height: 80px; background: #f5f5f5;}
+.dixian .box-child{width: 80%;}
+.dixian .dixian-line{width: 10%; height: 1px; background: #565656; opacity: 0.5;}
+.dixian span{margin-left: 16px; margin-right: 16px;}
 
 /*副样式为PC端（页面宽度大于750px）*/
 @media only screen and (min-width: 480px){
     .cpt-banner{width: 480px;}
+}
+@media only screen and (max-width: 375px){
+    .cpt-banner .banner-main{background-size: auto 100%; background-position: top left;}
 }
