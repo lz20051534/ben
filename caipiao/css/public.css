@@ -21,7 +21,7 @@ body{margin: 0;}
 .cpt-footer img{height: 25px; margin-bottom: 4px;}
 .font-footer{font: 12px 微软雅黑; color: #565656;}
 .font-footer-hover{font: 12px 微软雅黑; color: #1B82D1;}
-.font-headLine{font-family: Arial, Helvetica, sans-serif; font-size: 1rem; color: #565656;}
+.font-headLine{font-family: Arial, Helvetica, sans-serif; font-size: 1rem; color: #565656; font-weight: bold;}
 .cpt-footer .foot-child{width: 25%; text-decoration: none;}
 
 /*副样式为PC端（页面宽度大于750px）*/
