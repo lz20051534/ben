@@ -10,8 +10,9 @@
 /*头部的样式*/
 .cpt-head{height: 50px; position: fixed; top: 25px; background: #1B82D1; box-sizing: border-box;}
 .cpt-head img{height: 26px;}
+.cpt-head img:first-child{height: 16px;}
 .cpt-head .have-news{background: #E23737; width: 15px; height: 15px; position: relative; z-index: 99; top: 0; float: right; right: 0; border-radius: 100%;}
-.cpt-head .head-sousuo{width: 60%; height: 26px; border-radius: 15px; background: #ffffff;}
+.cpt-head .head-sousuo{width: 50%; height: 26px; border-radius: 15px; background: #ffffff;}
 .cpt-head .head-sousuo img{width: 14px; height: 14px; margin-left: 10px; margin-right: 10px;}
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 .cpt-head .head-icon1{width: 29px; height: 38px; background: url(../images/svg/head-2kefu.svg) center center no-repeat; background-size: auto 20px;}
