@@ -178,6 +178,24 @@
       background: white;
     }
   </style>
+    <script type="text/javascript">
+      window.onload = function () {
+        var $imgBox = document.getElementById('imgBox');
+        document.getElementById('buttonBox1').onclick = function () {
+          $imgBox.style.background = 'url(1.jpg) no-repeat center 40px';
+        }
+        document.getElementById('buttonBox2').onclick = function () {
+          $imgBox.style.background = 'url(2.jpg) no-repeat center 40px';
+        }
+        document.getElementById('buttonBox3').onclick = function () {
+          $imgBox.style.background = 'url(3.jpg) no-repeat center 40px';
+        }
+        document.getElementById('buttonBox4').onclick = function () {
+          $imgBox.style.background = 'url(4.jpg) no-repeat center 40px';
+        }
+        document.title = "亚洲电竞";
+      }
+      </script>
 </head>
 
 <body style="background-color:#1E2124;">
@@ -510,55 +528,6 @@
   <script src="http://api.BZGAME.VIP/Scripts/jquery-3.3.1.min.js"></script>
   <script src="http://api.BZGAME.VIP/Scripts/jquery.signalR-2.4.0.min.js"></script>
   <script src="http://api.BZGAME.VIP/signalr/hubs"></script>
-  <script type="text/javascript">
-    $.connection.hub.url = 'http://api.bzgame.vip/signalr';
-    var hub = $.connection.eSportsHub;
-
-    hub.client.init = function () {
-      console.log('signalr init');
-    };
-
-    hub.client.exceptionHandler = function (error) {
-      console.log(error);
-    }
-
-    $.connection.hub.error(function (error) {
-      console.log(error);
-    });
-
-    $.connection.hub.start().done(function () {
-      try {
-        console.log('signalr start');
-        var token = localStorage.getItem("token");
-        if (token != undefined && token.length > 0) {
-          hub.server.auth(token).done(function () {
-            console.log('signalr auth');
-          });
-        }
-      }
-      catch (e) { }
-    });
-
-    window.onload = function () {
-      var $imgBox = document.getElementById('imgBox');
-      document.getElementById('buttonBox1').onclick = function () {
-        $imgBox.style.background = "url(1.jpg) no-repeat center 40px";
-      }
-      document.getElementById('buttonBox2').onclick = function () {
-        $imgBox.style.background = "url(2.jpg) no-repeat center 40px";
-      }
-      document.getElementById('buttonBox3').onclick = function () {
-        $imgBox.style.background = 'url(3.jpg) no-repeat center 40px';
-      }
-      document.getElementById('buttonBox4').onclick = function () {
-        $imgBox.style.background = 'url(4.jpg) no-repeat center 40px';
-      }
-      document.title = "亚洲电竞";
-      if (!!!window.navigator.userAgent.match(/AppleWebKit.*Mobile.*/)) {
-        //window.top.location.href = 'http://www.baidu.com';
-      }
-    }
-    </script>
   <script src="/static/waterfall/blocksit.min.js"></script>
   <script type="text/javascript" src="/static/js/manifest.c1ef757a4a6a6a31eac2.js"></script>
   <script type="text/javascript" src="/static/js/vendor.f8e73f790b42f56bf2eb.js"></script>
