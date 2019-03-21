@@ -2,9 +2,11 @@
     <defs>
         <style>
             @keyframes miao-1{
-                0%{stroke-dashoffset: 120; stroke:rgba(255,255,255,0);}
-                20%{stroke-dashoffset: 100; stroke:rgba(255,255,255,1);}
-                100%{stroke-dashoffset: 0; stroke:rgba(255,255,255,0);}
+                100%{
+                    stroke-dashoffset: 0;
+                    stroke-dasharray: 75 0;
+                    stroke:rgba(255,255,255,0);
+                }
             }
             .cls-1 {
                 fill: url(#colorMain);
@@ -20,11 +22,14 @@
 
             .cls-4 {
                 fill: url(#colorMain-3);
-                stroke:rgba(255,255,255,1);
-                stroke-dasharray: 120; 
-                stroke-dashoffset: 120; 
-                stroke-width:2px;
-                animation:miao-1 2s;
+                stroke:#fff;
+                stroke-dasharray: 0 1000; 
+                stroke-dashoffset: 1000; 
+                stroke-width:0.6px;
+                animation:miao-1 2s ease-in-out forwards;
+            }
+            svg{
+                background:#000;
             }
         </style>
         <linearGradient id="colorMain" x1="7.11" y1="32.75" x2="7.56" y2="37.93" gradientUnits="userSpaceOnUse">

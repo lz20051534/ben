@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+    <defs>  
+        <path id="thepath" fill="none" stroke="#000000" d="M0.905,0.643c0,0,51.428,73.809,79.047,166.19s68.095,38.572,107.144-18.095c39.047-56.667,72.381-92.382,113.333-42.381S335.5,178.5,374,200.5s82-18.5,97.5-33.5"/>  
+    </defs>  
+    <circle r="15" cx="15" cy="15" fill="slategrey">  
+        <animateMotion dur="3s">  
+            <mpath xlink:href="#thepath"/>  
+        </animateMotion>  
+    </circle>
+</svg>
