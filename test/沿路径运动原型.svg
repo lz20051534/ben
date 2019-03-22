@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
     <defs>  
-        <path id="thepath" fill="none" stroke="#000000" d="M0.905,0.643c0,0,51.428,73.809,79.047,166.19s68.095,38.572,107.144-18.095c39.047-56.667,72.381-92.382,113.333-42.381S335.5,178.5,374,200.5s82-18.5,97.5-33.5"/>  
+        <path id="thepath" fill="none" stroke="#000000" d="M1099.5,410.5c31,0,139,18,79,129s-313-48-140-167s295-80,325,14s57,406-114,462s-603,166-537-155
+	s170-512,241-522s266-14,286-6"/>  
     </defs>  
     <circle r="15" cx="15" cy="15" fill="slategrey">  
         <animateMotion dur="3s">  
