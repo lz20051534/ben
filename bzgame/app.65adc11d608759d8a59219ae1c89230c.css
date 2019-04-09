@@ -2368,7 +2368,7 @@ li, ul { list-style-type: none; }
 .header .hd-top .l .hz .item img { height: 50px; vertical-align: middle; margin-right: 8px; }
 .header .hd-top .l .hz .item span { display: block; color: #03fcb3; }
 .header .hd-top .m { text-align: center; }
-.header .hd-top .m img { height: 20px; vertical-align: middle; }
+.header .hd-top .m img { height: 60px; margin-top: -1px;}
 .header .hd-top .r { position: absolute; top: 0; right: 0; }
 .header .hd-top .r .user-login { }
 .header .hd-top .r .user-login .login { background: #207F63; color: #fff; display: inline-block; height: 100%; margin-right: -3px; padding: 0; margin-left: 10px; position: relative; float: right; -webkit-transition: all .2s; transition: all .2s; overflow: hidden; }
