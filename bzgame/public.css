@@ -1,0 +1,23 @@
+.flex-H-between{display: -webkit-box; -webkit-box-pack: justify; -webkit-box-align: center; display: flex; align-items:center; justify-content: space-between;}
+.flex-H-start{display: -webkit-box; -webkit-box-align: center; display: flex; align-items:center;}
+.flex-S-center{display: -webkit-box; -webkit-box-pack: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; justify-content: center;}
+.flex-H-end{display: -webkit-box; -webkit-box-pack: end; -webkit-box-align: center; display: flex; align-items:center; justify-content: flex-end;}
+.flex-H-center{display: -webkit-box; -webkit-box-align: center; -webkit-box-pack: center; display: flex; align-items:center; justify-content: center;}
+
+.font-gray{color: #697081; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 12px;}
+.font-main{color: #03fcb3; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 12px;}
+.font-white{color: #ffffff; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 12px;}
+
+body{margin: 0; background: #22262a; transition: 0.5s;}
+
+header{width: 100%; height: 60px; overflow: hidden; border-bottom: solid 1px #303237;}
+header .header-left{width: 35%; height: 100%;}
+header .header-right{width: 35%; height: 100%;}
+header .line-long{width: 1px; height: 100%; background: #303237;}
+header .line-shot{width: 1px; height: 30%; background: #303237;}
+header .header-child{margin-left: 10px;}
+header .header-left img{display: block;}
+header .login-reg{width: 160px; height: 100%; background: #207f63;}
+header .login-reg-child{margin-left: 10px; margin-right: 10px;}
+header .header-right-child{margin-right: 10px;}
+.header-hover-colorMain:hover{color:#03fcb3;}
