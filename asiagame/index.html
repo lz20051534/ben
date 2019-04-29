@@ -57,7 +57,7 @@
     <a class="flex-H-centerCenter font-white" href="">积分商城</a>
     <a class="flex-H-centerCenter font-white" href="">APP下载</a>
     <a class="flex-H-centerCenter font-white" href="">合作伙伴</a>
-    <button class="flex-H-centerCenter font-white header-kefu header-button" href="">在线客服</button>
+    <button class="font-white header-kefu header-button">在线客服</button>
   </div>
   <div class="headerMiddle flex-H-betweenCenter">
     <!--750<分辨率<1300，整体导航菜单栏的显示方式-->
@@ -69,8 +69,8 @@
     <a class="flex-H-centerCenter font-white" href="">下载</a>
     <a class="flex-H-centerCenter font-white" href="">合作</a>
     <div class="flex-H-centerCenter">
-      <button class="font-white header-button" href="">在线客服</button>
-      <button class="font-white header-login header-button button-headLogin" href="">登录</button>
+      <button class="font-white header-button">在线客服</button>
+      <button class="font-white header-login header-button button-headLogin">登录</button>
     </div>
   </div>
   <div class="headerMix flex-H-betweenCenter">
@@ -82,14 +82,19 @@
   <!--头部的结束-->
 
   <!--banner的开始-->
-  <div class="banner bannerMax flex-H-betweenCenter">
-
+  <div class="banner bannerMax flex-H-betweenCenter" id="banner-main">
+    <button class="rep-nex-Box repLeft flex-H-centerCenter" id="rep-nex-Box-left">
+      <div class="bz-zuo1 iconfont font-H2"></div>
+    </button>
+    <button class="rep-nex-Box nextRight flex-H-centerCenter" id="rep-nex-Box-right">
+      <div class="bz-you1 iconfont font-H2"></div>
+    </button>
   </div>
   <!--banner的结束-->
   <!--推荐赛事的开始-->
   <div class="gameRecommend flex-H-centerCenter">
     <div class="gameRecommend-child flex-change">
-      <div class="gameBox" style="animation:leftMove 1.2s;">
+      <div class="gameBox" style="animation:leftMove 1s; animation-timing-function:ease-in-out; -webkit-animation:leftMove 1s;">
         <div class="gameBox-header flex-H-centerCenter font-default">LCK春季赛</div>
         <div class="gameBox-Body flex-H-centerCenter">
           <div class="gameBox-Body-team flex-S-centerCenter">
@@ -124,7 +129,7 @@
           <div class="gameBox-footer-button flex-H-centerCenter font-white">查看赛事</div>
         </div>
       </div>
-      <div class="gameBox" style="animation:topMove200 1.2s;">
+      <div class="gameBox" style="animation:topMove200 1s; animation-timing-function:ease-in-out; -webkit-animation:topMove200 1s;">
         <div class="gameBox-header flex-H-centerCenter font-default">LCK春季赛</div>
         <div class="gameBox-Body flex-H-centerCenter">
           <div class="gameBox-Body-team flex-S-centerCenter">
@@ -159,7 +164,7 @@
           <div class="gameBox-footer-button flex-H-centerCenter font-white">查看赛事</div>
         </div>
       </div>
-      <div class="gameBox gameBox2" style="animation:rightMove 1.5s;">
+      <div class="gameBox gameBox2 WOW" style="animation:rightMove 1s; animation-timing-function:ease-in-out; -webkit-animation:rightMove 1s;">
         <div class="gameBox-header flex-H-centerCenter font-default">LCK春季赛</div>
         <div class="gameBox-Body flex-H-centerCenter">
           <div class="gameBox-Body-team flex-S-centerCenter">
@@ -199,7 +204,7 @@
   <!--推荐赛事的结束-->
   <!--资讯模块的开始-->
   <div class="zixunTui flex-H-centerCenter">
-    <div class="zixunTui-child flex-S-startCenter">
+    <div class="zixunTui-child flex-S-startCenter"> 
       <div class="zixunTui-Box1 flex-H-centerCenter">
         <div class="font-H1">资讯</div>
         <div class="font-default" style="margin-top: 8px; margin-left: 8px;">/ News</div>
@@ -215,9 +220,9 @@
         <div class="zixunTui-Box2-line"></div>
         <div class="font-default zixunTui-List">更多</div>
       </div>
-      <div class="zixunTui-Box3 flex-S-centerCenter">
+      <div class="zixunTui-Box3 flex-S-centerCenter" id="zixun-news"> <!--资讯1新闻模块-->
         <div class="zixunTui-Box3-child zixunTui-Box3-child-flexChange">
-          <div class="zixunTui-zixunBox flex-H-startCenter" style="animation:leftMove 0.3s;">
+          <div class="zixunTui-zixunBox flex-H-startCenter" style="animation:leftMove 0.5s; animation-timing-function:ease-in-out; -webkit-animation: leftMove 0.5s;">
             <div class="zixunTui-Img">
               <img src="images/zixunTui.jpg" alt="" height="105" width="175">
             </div>
@@ -235,7 +240,7 @@
               </div>
             </div>
           </div>
-          <div class="zixunTui-zixunBox zixunTui-zixunBox2 flex-H-startCenter" style="animation:rightMove 1.2s;">
+          <div class="zixunTui-zixunBox zixunTui-zixunBox2 flex-H-startCenter" style="animation:rightMove 0.5s; animation-timing-function:ease-in-out; -webkit-animation: rightMove 0.5s;">
             <div class="zixunTui-Img">
               <img src="images/zixunTui.jpg" alt="" height="105" width="175">
             </div>
@@ -255,7 +260,7 @@
           </div>
         </div>
         <div class="zixunTui-Box3-child zixunTui-Box3-child-flexChange">
-          <div class="zixunTui-zixunBox flex-H-startCenter" style="animation:leftMove 2s;">
+          <div class="zixunTui-zixunBox flex-H-startCenter" style="animation:leftMove 0.5s; animation-timing-function:ease-in-out; -webkit-animation: leftMove 0.5s;">
             <div class="zixunTui-Img">
               <img src="images/zixunTui.jpg" alt="" height="105" width="175">
             </div>
@@ -273,7 +278,7 @@
               </div>
             </div>
           </div>
-          <div class="zixunTui-zixunBox zixunTui-zixunBox2 flex-H-startCenter" style="animation:rightMove 0.6s;">
+          <div class="zixunTui-zixunBox zixunTui-zixunBox2 flex-H-startCenter" style="animation:rightMove 0.5s; animation-timing-function:ease-in-out; -webkit-animation: rightMove 0.5s;">
             <div class="zixunTui-Img">
               <img src="images/zixunTui.jpg" alt="" height="105" width="175">
             </div>
@@ -293,7 +298,7 @@
           </div>
         </div>
         <div class="zixunTui-Box3-child zixunTui-Box3-child-flexChange">
-          <div class="zixunTui-zixunBox flex-H-startCenter" style="animation:leftMove 1s;">
+          <div class="zixunTui-zixunBox flex-H-startCenter" style="animation:leftMove 0.5s; animation-timing-function:ease-in-out; -webkit-animation: leftMove 0.5s;">
             <div class="zixunTui-Img">
               <img src="images/zixunTui.jpg" alt="" height="105" width="175">
             </div>
@@ -311,11 +316,11 @@
               </div>
             </div>
           </div>
-          <div class="zixunTui-zixunBox zixunTui-zixunBox2 flex-H-startCenter">
+          <div class="zixunTui-zixunBox zixunTui-zixunBox2 flex-H-startCenter" style="animation:rightMove 0.5s; animation-timing-function:ease-in-out; -webkit-animation: rightMove 0.5s;">
             <div class="zixunTui-Img">
               <img src="images/zixunTui.jpg" alt="" height="105" width="175">
             </div>
-            <div class="zixunTui-textBox flex-S-centerStart" style="animation:rightMove 0.8s;">
+            <div class="zixunTui-textBox flex-S-centerStart">
               <div class="flex-H-startCenter">
                 <div class="zixunTui-gameLogo"></div>
                 <span class="zixunTui-gameHeader font-teamNameBig">WE教练组无视JDG被打脸，网友：提前研究RNG？想多了吧！</span>
@@ -474,20 +479,26 @@
       <div class="navTan-regLogin-childHeader flex-H-centerCenter font-H2">注册</div>
       <div class="navTan-regLogin-childborder flex-H-startCenter"><input id="reg-useName" class="font-white navTan-regLogin-childWidth" type="text" placeholder="账号"></div>
       <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-        <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold" type="password" placeholder="密码">
+        <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold inputBox-Main" type="password" placeholder="密码">
         <div class="navTan-regLogin-child-eye"></div>
       </div>
       <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-        <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold" type="password" placeholder="确认密码">
+        <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold inputBox-Main" type="password" placeholder="确认密码">
         <div class="navTan-regLogin-child-eye"></div>
       </div>
-      <div class="navTan-regLogin-childborder flex-H-startCenter"><input class="font-white navTan-regLogin-childWidth" type="text" placeholder="真实姓名" ></div>
+      <div class="navTan-regLogin-childborder flex-H-startCenter">
+        <input class="font-white navTan-regLogin-childWidth inputBox-Main" type="text" placeholder="真实姓名" >
+      </div>
       <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-        <input class="font-white navTan-regLogin-childWidth-sendMessage reg-mobbileNumber" type="text" placeholder="手机号码" maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')">
+        <input class="font-white navTan-regLogin-childWidth-sendMessage reg-mobbileNumber inputBox-Main" type="text" placeholder="手机号码" maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')">
         <button class="navTan-regLogin-child-duanxinSend flex-H-centerCenter font-gray reg-phoneText" disabled = true>发送短信验证码</button>
       </div>
-      <div class="navTan-regLogin-childborder flex-H-startCenter"><input class="font-white navTan-regLogin-childWidth" type="text" placeholder="短信验证码" onkeyup="this.value=this.value.replace(/\D/g,'')" maxlength="6"></div>
-      <div class="navTan-regLogin-childborder flex-H-startCenter"><input class="font-white navTan-regLogin-childWidth" type="text" placeholder="推荐码" id="reg-tuijian"></div>
+      <div class="navTan-regLogin-childborder flex-H-startCenter">
+        <input class="font-white navTan-regLogin-childWidth inputBox-Main" type="text" placeholder="短信验证码" onkeyup="this.value=this.value.replace(/\D/g,'')" maxlength="6">
+      </div>
+      <div class="navTan-regLogin-childborder flex-H-startCenter">
+        <input class="font-white navTan-regLogin-childWidth inputBox-Main" type="text" placeholder="推荐码" id="reg-tuijian">
+      </div>
       <div class="flex-H-startCenter navTan-regLogin-child-foget">
         <input type="checkbox" id="checkBox">
         <div class="font-default flex-H-startCenter">本人同意并接受 <a class="font-default navTan-regLogin-tiaokuan" href="">《条款和协议》</a></div>
@@ -502,9 +513,11 @@
     <!--登录页面的开始-->
     <div class="navTan-regLogin flex-S-startCenter" id="loginMix">
         <div class="navTan-regLogin-childHeader flex-H-centerCenter font-H2">登录</div>
-        <div class="navTan-regLogin-childborder flex-H-startCenter"><input id="reg-useName" class="font-white navTan-regLogin-childWidth" type="text" placeholder="账号"></div>
+        <div class="navTan-regLogin-childborder flex-H-startCenter">
+          <input id="reg-useName" class="font-white navTan-regLogin-childWidth inputBox-Main" type="text" placeholder="账号">
+        </div>
         <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-          <input class="font-gray navTan-regLogin-childWidth-passWord font-white reg-passWold" type="password" placeholder="密码">
+          <input class="font-gray navTan-regLogin-childWidth-passWord  font-white reg-passWold inputBox-Main" type="password" placeholder="密码">
           <div class="navTan-regLogin-child-eye"></div>
         </div>
         <div class="flex-H-startCenter navTan-regLogin-child-foget">
@@ -522,16 +535,18 @@
     <div class="navTan-regLogin flex-S-startCenter" id="fogetMix">
       <div class="navTan-regLogin-childHeader flex-H-centerCenter font-H2">找回密码</div>
       <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-        <input class="font-white navTan-regLogin-childWidth-sendMessage reg-mobbileNumber" type="text" placeholder="手机号码" maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')">
+        <input class="font-white navTan-regLogin-childWidth-sendMessage reg-mobbileNumber inputBox-Main" type="text" placeholder="手机号码" maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')">
         <button class="navTan-regLogin-child-duanxinSend flex-H-centerCenter font-gray reg-phoneText" disabled = true>发送短信验证码</button>
       </div>
-      <div class="navTan-regLogin-childborder flex-H-startCenter"><input class="font-white navTan-regLogin-childWidth" type="text" placeholder="短信验证码" maxlength="6" onkeyup="this.value=this.value.replace(/\D/g,'')"></div>
+      <div class="navTan-regLogin-childborder flex-H-startCenter">
+        <input class="font-white navTan-regLogin-childWidth inputBox-Main" type="text" placeholder="短信验证码" maxlength="6" onkeyup="this.value=this.value.replace(/\D/g,'')">
+      </div>
       <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-        <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold" type="password" placeholder="密码">
+        <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold inputBox-Main" type="password" placeholder="密码">
         <div class="navTan-regLogin-child-eye"></div>
       </div>
       <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-        <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold" type="password" placeholder="确认密码">
+        <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold inputBox-Main" type="password" placeholder="确认密码">
         <div class="navTan-regLogin-child-eye"></div>
       </div>
       <div class="navTan-regLogin-child-regButton font-white flex-H-centerCenter">提交</div>
@@ -554,22 +569,30 @@
         <!--注册页面的开始-->
         <div class="navTan-regLogin flex-S-startCenter" id="regMix1">
           <div class="navTan-regLogin-childHeader flex-S-startCenter font-H2">注册</div>
-          <div class="navTan-regLogin-childborder flex-H-startCenter"><input id="reg-useName" class="font-white navTan-regLogin-childWidth" type="text" placeholder="账号"></div>
+          <div class="navTan-regLogin-childborder flex-H-startCenter">
+            <input id="reg-useName" class="font-white navTan-regLogin-childWidth inputBox-Main" type="text" placeholder="账号">
+          </div>
           <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-            <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold" type="password" placeholder="密码">
+            <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold inputBox-Main" type="password" placeholder="密码">
             <div class="navTan-regLogin-child-eye"></div>
           </div>
           <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-            <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold" type="password" placeholder="确认密码">
+            <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold inputBox-Main" type="password" placeholder="确认密码">
             <div class="navTan-regLogin-child-eye"></div>
           </div>
-          <div class="navTan-regLogin-childborder flex-H-startCenter"><input class="font-white navTan-regLogin-childWidth" type="text" placeholder="真实姓名"></div>
+          <div class="navTan-regLogin-childborder flex-H-startCenter">
+            <input class="font-white navTan-regLogin-childWidth inputBox-Main" type="text" placeholder="真实姓名">
+          </div>
           <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-            <input class="font-white navTan-regLogin-childWidth-sendMessage reg-mobbileNumber" type="text" placeholder="手机号码" maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')">
+            <input class="font-white navTan-regLogin-childWidth-sendMessage reg-mobbileNumber inputBox-Main" type="text" placeholder="手机号码" maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')">
             <button class="navTan-regLogin-child-duanxinSend flex-H-centerCenter font-gray reg-phoneText" disabled = true>发送短信验证码</button>
           </div>
-          <div class="navTan-regLogin-childborder flex-H-startCenter"><input class="font-white navTan-regLogin-childWidth" type="text" placeholder="短信验证码" onkeyup="this.value=this.value.replace(/\D/g,'')" maxlength="6"></div>
-          <div class="navTan-regLogin-childborder flex-H-startCenter"><input class="font-white navTan-regLogin-childWidth" type="text" placeholder="推荐码" id="reg-tuijian"></div>
+          <div class="navTan-regLogin-childborder flex-H-startCenter">
+            <input class="font-white navTan-regLogin-childWidth inputBox-Main" type="text" placeholder="短信验证码" onkeyup="this.value=this.value.replace(/\D/g,'')" maxlength="6">
+          </div>
+          <div class="navTan-regLogin-childborder flex-H-startCenter">
+            <input class="font-white navTan-regLogin-childWidth inputBox-Main" type="text" placeholder="推荐码" id="reg-tuijian">
+          </div>
           <div class="flex-H-startCenter navTan-regLogin-child-foget">
             <input type="checkbox" id="checkBox">
             <div class="font-default flex-H-startCenter">本人同意并接受 <a class="font-default navTan-regLogin-tiaokuan" href="">《条款和协议》</a></div>
@@ -584,9 +607,11 @@
         <!--登录页面的开始-->
         <div class="navTan-regLogin flex-S-startCenter" id="loginMix1">
             <div class="navTan-regLogin-childHeader flex-S-startCenter font-H2">登录</div>
-            <div class="navTan-regLogin-childborder flex-H-startCenter"><input id="reg-useName" class="font-white navTan-regLogin-childWidth" type="text" placeholder="账号"></div>
+            <div class="navTan-regLogin-childborder flex-H-startCenter">
+              <input id="reg-useName" class="font-white navTan-regLogin-childWidth inputBox-Main" type="text" placeholder="账号">
+            </div>
             <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-              <input class="font-gray navTan-regLogin-childWidth-passWord font-white reg-passWold" type="password" placeholder="密码">
+              <input class="font-gray navTan-regLogin-childWidth-passWord font-white reg-passWold inputBox-Main" type="password" placeholder="密码">
               <div class="navTan-regLogin-child-eye"></div>
             </div>
             <div class="flex-H-startCenter navTan-regLogin-child-foget">
@@ -604,22 +629,24 @@
         <div class="navTan-regLogin flex-S-startCenter" id="fogetMix1">
           <div class="navTan-regLogin-childHeader flex-S-startCenter font-H2">找回密码</div>
           <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-            <input class="font-white navTan-regLogin-childWidth-sendMessage reg-mobbileNumber" type="text" placeholder="手机号码" maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')">
+            <input class="font-white navTan-regLogin-childWidth-sendMessage reg-mobbileNumber inputBox-Main" type="text" placeholder="手机号码" maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')">
             <button class="navTan-regLogin-child-duanxinSend flex-H-centerCenter font-gray reg-phoneText" disabled = true>发送短信验证码</button>
           </div>
-          <div class="navTan-regLogin-childborder flex-H-startCenter"><input class="font-white navTan-regLogin-childWidth" type="text" placeholder="短信验证码" maxlength="6" onkeyup="this.value=this.value.replace(/\D/g,'')"></div>
+          <div class="navTan-regLogin-childborder flex-H-startCenter">
+            <input class="font-white navTan-regLogin-childWidth inputBox-Main" type="text" placeholder="短信验证码" maxlength="6" onkeyup="this.value=this.value.replace(/\D/g,'')">
+          </div>
           <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-            <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold" type="password" placeholder="密码">
+            <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold inputBox-Main" type="password" placeholder="密码">
             <div class="navTan-regLogin-child-eye"></div>
           </div>
           <div class="navTan-regLogin-childborder flex-H-betweenCenter">
-            <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold" type="password" placeholder="确认密码">
+            <input class="font-white navTan-regLogin-childWidth-passWord reg-passWold inputBox-Main" type="password" placeholder="确认密码">
             <div class="navTan-regLogin-child-eye"></div>
           </div>
           <div class="navTan-regLogin-child-regButton font-white flex-H-centerCenter">提交</div>
           <div class="navTan-regLogin-child-foget flex-H-centerCenter">
             <div class="font-default reg-Now2">立即注册</div>
-            <sp class="font-default login-Now2">立即登录</sp>
+            <span class="font-default login-Now2">立即登录</span>
           </div>
         </div>
         <!--忘记密码的结束-->
