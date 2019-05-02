@@ -3,25 +3,33 @@
 .flex-H-centerCenter{display: -webkit-box; -webkit-box-align: center; -webkit-box-pack: center; display: flex; align-items:center; justify-content: center;}
 .flex-H-endCenter{display: -webkit-box; -webkit-box-pack: end; -webkit-box-align: center; display: flex; align-items:center; justify-content: flex-end;}
 .flex-H-startEnd{display: -webkit-box; -webkit-box-pack: start; -webkit-box-align: end; display: flex; align-items:flex-end; justify-content: flex-start;}
+.flex-H-betweenEnd{display: -webkit-box; -webkit-box-pack: justify;  -webkit-box-align: end; display: flex; justify-content: space-between; align-items: flex-end;}
+.flex-H-startStart{display: flex; display: -webkit-box;}
+
 .flex-S-centerStart{display: -webkit-box; -webkit-box-pack: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; justify-content: center;}
 .flex-S-startCenter{display: -webkit-box; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center;}
+.flex-S-startStart{display: -webkit-box;  -webkit-box-orient: vertical; display: flex; flex-direction: column;}
 .flex-S-centerCenter{display: -webkit-box; -webkit-box-pack: center; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center; justify-content: center;}
 .flex-S-betweenCenter{display: -webkit-box; -webkit-box-pack: justify; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center; justify-content: space-between;}
 
-.font-gray{color: #697081; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 12px;}
-.font-main{color: #03fcb3; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 12px;}
-.font-white{color: #ffffff; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 12px;}
-.font-default{color: #b5bdce; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 12px;}
-.font-teamNameBig{color: #ffffff; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 14px;}
-.font-H1{color: #b5bdce; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 18px;}
-.font-H2{color: #ffffff; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 20px;}
+.font-gray{color: #697081; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 12px; }
+.font-main{color: #03fcb3; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 12px; }
+.font-white{color: #ffffff; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 12px; }
+.font-default{color: #b5bdce; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 12px; }
+.font-teamNameBig{color: #ffffff; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 14px; }
+.font-H1{color: #b5bdce; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 18px; }
+.font-H2{color: #ffffff; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 20px; }
+.font-main-22{color: #03fcb3; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 22px; font-weight: lighter;}
+.font-mian-14{color: #03fcb3; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 14px;}
 
 body{margin: 0; background: #1e2225;}
 
 .headerMiddle, .headerMix{display: none; background: #22262a; position: fixed; top: 0; width: 100%; height: 60px; box-shadow: 0px 4px 4px rgba(0,0,0,0.2); z-index: 999;}
 .headerMiddle a{text-decoration: none;  transition: 0.5s; -webkit-transition: 0.5s;}
 .headerMiddle a:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
-.headerMiddle a:nth-child(2){color: #03fcb3;}
+.headerMiddle-home{color: #03fcb3;}
+.headerMiddle-agent{color: #03fcb3;}
+.headerMiddle-promotion{color: #03fcb3;}
 button{display: block; outline: none; border: none;}
 
 .headerMax{width: 100%; height: 60px; border-bottom: solid 1px #303237;  position: fixed; top: 0; background: #22262a; z-index: 999;}
@@ -45,7 +53,9 @@ button{display: block; outline: none; border: none;}
 
 .nav{width: 100%; height: 42px; box-shadow: 0px 4px 4px rgba(0,0,0,0.2); background: rgba(34,38,42,0.98);}
 .nav a{width: 130px; height: 42px; text-decoration: none; transition: 0.5s; -webkit-transition: 0.5s;}
-.nav a:first-child{color:#03fcb3; background: linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); background: -webkit-linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); border-bottom: solid 1px #03fcb3;}
+.nav-home{color:#03fcb3; background: linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); background: -webkit-linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); border-bottom: solid 1px #03fcb3;}
+.nav-agent{color:#03fcb3; background: linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); background: -webkit-linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); border-bottom: solid 1px #03fcb3;}
+.nav-promotion{color:#03fcb3; background: linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); background: -webkit-linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); border-bottom: solid 1px #03fcb3;}
 .nav a:hover{color:#03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
 .nav a:active{background: linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); background: -webkit-linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); border-bottom: solid 1px #03fcb3;}
 .header-button{width: 72px; height: 27px; background: #207f63; border-radius: 2px; transition: 0.5s; -webkit-transition: 0.5s;}
@@ -63,6 +73,7 @@ button{display: block; outline: none; border: none;}
 .footer-Mainhead div:last-child{margin-left: 4px;}
 .footer-Main{width: 100%; height: 120px;}
 .footer-Mainnav{width:300px; height: auto; margin-top: 16px; transition: 0.5s; -webkit-transition: 0.5s;}
+.footer-Mainnav-A{text-decoration: none;}
 .footer-Mainnav .font-gray:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
 .footer-Mainnav2{width:280px; height: auto; margin-top: 16px;}
 .footer-Mainnav2 .font-gray:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
@@ -70,10 +81,22 @@ button{display: block; outline: none; border: none;}
 .footer-MainnavLine{width: 1px; height: 14px; background: #303237;}
 .flex-footer-change{display: -webkit-box; -webkit-box-pack: justify; -webkit-box-align: center; display: flex; align-items:center; justify-content: space-between;}
 .footer-gamesLogo{width: 100%; margin-bottom: 20px; overflow: hidden;}
-.footer-gamesLogoBox{width: 24px; height: 24px; margin-right: 4px;}
-.footer-gamesLogoBox1{background: url(images/yxlm1.svg);}
-.footer-gamesLogoBoxMain{filter: grayscale(100%); -webkit-filter: grayscale(100%); cursor: pointer; filter: gray; transition: 0.5s; -webkit-transition: 0.5s;}
-.footer-gamesLogoBoxMain:hover{filter: grayscale(0%); -webkit-filter: grayscale(0%); transition: 0.5s; -webkit-transition: 0.5s;}
+.footer-gamesLogoBox{width: 24px; height: 24px; margin-right: 4px; transition: 0.5s; -webkit-transition: 0.5s; filter: grayscale(100%); -webkit-filter: grayscale(100%);}
+.footer-gamesLogoBox1{background: url(images/game-1-dota2.svg);}
+.footer-gamesLogoBox2{background: url(images/game-2-yxlm.svg);}
+.footer-gamesLogoBox3{background: url(images/game-3-lushi.svg);}
+.footer-gamesLogoBox4{background: url(images/game-4-cs.svg);}
+.footer-gamesLogoBox5{background: url(images/game-5-swxf.svg);}
+.footer-gamesLogoBox6{background: url(images/game-6-xingji2.svg);}
+.footer-gamesLogoBox7{background: url(images/game-7.svg);}
+.footer-gamesLogoBox8{background: url(images/game-8.svg);}
+.footer-gamesLogoBox9{background: url(images/game-9.svg);}
+.footer-gamesLogoBox10{background: url(images/game-10.svg);}
+.footer-gamesLogoBox11{background: url(images/game-11.svg);}
+.footer-gamesLogoBox12{background: url(images/game-12.svg);}
+.footer-gamesLogoBox13{background: url(images/game-13.svg);}
+.footer-gamesLogoBoxMain{cursor: pointer; filter: gray; transition: 0.5s; -webkit-transition: 0.5s;}
+.footer-gamesLogoBoxMain:hover .footer-gamesLogoBox{filter: grayscale(0%); -webkit-filter: grayscale(0%); transition: 0.5s; -webkit-transition: 0.5s;}
 .footer-gamesLogoBoxMain:hover .font-gray{color: #ffffff; transition: 0.5s; -webkit-transition: 0.5s;}
 .footer-FAB{width: 100%; height: 40px; margin-top: 12px;}
 .footer-FABimg{width: 100px; height: 40px; background: url(images/fab.png) no-repeat center center; flex-shrink:0;}
@@ -92,7 +115,7 @@ button{display: block; outline: none; border: none;}
 .navTan-regLogin input::-webkit-input-placeholder{color: #697081;}
 .navTan-regLogin-childborder{width: 100%; height: 48px; border-bottom: solid 1px #303237;}
 .navTan-regLogin-childHeader{width: 100%; height: 48px;}
-.navTan-regLogin-child-eye{background-image: url(images/closeeye.svg); background-repeat: no-repeat; background-position: center; background-size: 100% auto; width: 20px; height: 20px; transition: 0.3s; -webkit-transition: 0.3s; margin-right: 0px;}
+.navTan-regLogin-child-eye{background-image: url(images/closeeye.svg); background-repeat: no-repeat; background-position: center; background-size: 100% auto; width: 15px; height: 15px; transition: 0.3s; -webkit-transition: 0.3s; margin-right: 0px;}
 .navTan-regLogin-child-eye:hover{cursor: pointer; transition: 0.3s; -webkit-transition: 0.3s;}
 .navTan-regLogin-child-passWorld{width: 80%; height: 100%;}
 .navTan-regLogin-childWidth{width: 100%;}
@@ -157,7 +180,8 @@ button{display: block; outline: none; border: none;}
 }
 
 /*--------------------------------------动画定义区，全局通用-------------------------------------------*/
-@keyframes topMove100{
+
+@keyframes topMove100 {
     from{transform: translate(0px,-100px); opacity: 0.2; -webkit-transform: translate(0px,-100px);}
     to{transform: none; opacity: 1; -webkit-transform: none;}
 }
@@ -165,31 +189,31 @@ button{display: block; outline: none; border: none;}
     from{-webkit-transform: translate(0px,-100px); opacity: 0.2; transform: translate(0px,-100px);}
     to{-webkit-transform: none; opacity: 1; transform: none;}
 }
-@keyframes leftMove{
+@keyframes leftMove {
     0%{transform: translate(-200px,0px); opacity: 0.2;}
     100%{transform: none; opacity: 1;}
 }
-@-webkit-keyframes leftMove{
+@-webkit-keyframes leftMove {
     0%{-webkit-transform: translate(-200px,0px); opacity: 0.2;}
     100%{-webkit-transform: none; opacity: 1;}
 }
-@keyframes rightMove{
+@keyframes rightMove {
     0%{transform: translate(200px,0px); opacity: 0.2;}
     100%{transform: none; opacity: 1;}
 }
-@-webkit-keyframes rightMove{
+@-webkit-keyframes rightMove {
     0%{-webkit-transform: translate(200px,0px); opacity: 0.2;}
     100%{-webkit-transform: none; opacity: 1;}
 }
-@keyframes topMove200{
+@keyframes topMove200 {
     0%{transform: translate(0px,-200px); opacity: 0.5;}
     100%{transform: none; opacity: 1;}
 }
-@-webkit-keyframes topMove200{
+@-webkit-keyframes topMove200 {
     0%{-webkit-transform: translate(0px,-200px); opacity: 0.5;}
     100%{-webkit-transform: none; opacity: 1;}
 }
-@keyframes toLeft100{
+@keyframes toLeft100 {
     from{transform: translate(-20px,0px); opacity: 0.2;}
     to{transform: none; opacity: 1;}
 }
@@ -197,7 +221,7 @@ button{display: block; outline: none; border: none;}
     from{-webkit-transform: translate(-20px,0px); opacity: 0.2;}
     to{-webkit-transform: none; opacity: 1;}
 }
-@keyframes toRight100{
+@keyframes toRight100 {
     from{transform: translate(20px,0px); opacity: 0.2;}
     to{transform: none; opacity: 1;}
 }
@@ -221,6 +245,15 @@ button{display: block; outline: none; border: none;}
 @-webkit-keyframes toRight100_1 {
     from{-webkit-transform: none; opacity: 1;}
     to{-webkit-transform: translate(20px,0px); opacity: 0;}
+}
+
+@keyframes toBottom-200 {
+    from{transform: translate(0px,200px); opacity: 0;}
+    to{transform: none; opacity: 1;}
+}
+@-webkit-keyframes toBottom-200 {
+    from{-webkit-transform: translate(0px,200px); opacity: 0;}
+    to{-webkit-transform: none; opacity: 1;}
 }
 
 /*--------------------------------------动画定义区，全局通用-------------------------------------------*/

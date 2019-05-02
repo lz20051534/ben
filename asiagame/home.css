@@ -24,28 +24,31 @@
 .gameBox-footer-button:hover{background: #c39902; transition: 0.5s; -webkit-transition: 0.5s;}
 .gameBox-Body-teamMiddle-gameLogo-Box{width: 100%; height: 30%;}
 .gameBox-Body-teamMiddle-gameLogo-Box:nth-child(2){border-top: solid 1px #32373d; border-bottom: solid 1px #32373d} 
-.gameBox-Body-teamMiddle-gameLogoBox{background: url(images/yxlm1.svg) no-repeat center center; width: 20px; height: 20px;}
+.gameBox-Body-teamMiddle-gameLogoBox{background: url(images/game-1-dota2.svg) no-repeat center center; width: 20px; height: 20px;}
 
 .flex-change{display: -webkit-box; -webkit-box-pack: justify; -webkit-box-align: center; display: flex; align-items:center; justify-content: space-between;}
 
 .zixunTui{margin-top: 100px; height: auto; width: 100%;}
 .zixunTui-child{width: 1300px; height: auto;}
 .zixunTui-Box1{width: 100%;}
-.zixunTui-Box2{width: 480px; margin-top: 20px;}
+.zixunTui-Box2{width: 480px; margin-top: 20px; margin-bottom: 20px;}
 .zixunTui-Box2-line{width: 1px; height: 15px; background: #697081;}
-.zixunTui-List:first-child{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
-.zixunTui-List:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
-.zixunTui-Box3{width: 100%; height: 550px;}
+.zixunTui-List{transition: 0.5s; -webkit-transition: 0.5s;}
+.zixunTui-List:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s; cursor: pointer;}
+.zixunTui-List-news{color: #03fcb3;}
+.zixunTui-List-videos{color: #03fcb3;}
+.zixunTui-List-photos{color: #03fcb3;}
+.zixunTui-Box3{width: 100%; height: auto;} /*新闻模块*/
 .zixunTui-Box3-child{width: 100%; height: auto;}
-.zixunTui-Box3-child:nth-child(2){margin-top: 20px; margin-bottom: 20px;}
-.zixunTui-zixunBox{width: 49%; height: 138px; border: solid 1px #32373d; overflow: hidden; transition: 0.5s; -webkit-transition: 0.5s; background: #242a2e;}
+.zixunTui-Box3-child:nth-child(3){margin-top: 20px; margin-bottom: 20px;}
+.zixunTui-zixunBox{width: 49%; height: 138px; border: solid 1px #32373d; overflow: hidden; transition: 0.5s; -webkit-transition: 0.5s; background: #242a2e; text-decoration: none;}
 .zixunTui-zixunBox:hover{background: #32373d; box-shadow: 0px 8px 8px rgba(0,0,0,0.4); transition: 0.5s; -webkit-transition: 0.5s;}
 .zixunTui-Box3-child-flexChange{display: -webkit-box; -webkit-box-pack: justify; -webkit-box-align: center; display: flex; align-items:center; justify-content: space-between;}
 .zixunTui-Img{width: 175px; height: 105px; margin-left: 20px; flex-shrink:0; overflow: hidden;}
 .zixunTui-Img img{transition: 0.5s; -webkit-transition: 0.5s;}
 .zixunTui-Img:hover img{transform: scale(1.1); -webkit-transform: scale(1.1); transition: 0.5s; -webkit-transition: 0.5s;}
 .zixunTui-textBox{margin-left: 8px; width: calc(100% - 200px); height: 100%;}
-.zixunTui-gameLogo{width: 20px; height: 20px; background: url(images/yxlm1.svg) no-repeat center center; flex-shrink:0;}
+.zixunTui-gameLogo{width: 20px; height: 20px; background: url(images/game-1-dota2.svg) no-repeat center center; flex-shrink:0;}
 .zixunTui-gameHeader{margin-left: 4px; width: 90%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 .zixunTui-gameHeader:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
 .zixunTui-gameHeader2{width: 90%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: 8px;}
@@ -54,6 +57,25 @@
 .zixunTui-gameHeader3 span:nth-child(2){margin-left: 8px}
 .zixunTui-gameHeader3 span:nth-child(3){margin-left: 24px}
 .zixunTui-gameHeader3 span:nth-child(4){margin-left: 8px}
+
+.zixun-defaultHidden{display: none;}
+.zixun-videos-child{width: 49%; height: 215px; background: #242a2e; border:solid 1px #32373d; box-sizing: border-box; transition: 0.5s; -webkit-transition: 0.5s;}
+.zixun-videos-row{width: 100%; height: auto; margin-top: 20px;}
+.zixun-videos-row-flex, .zixun-videos-row-flex-child{display: -webkit-box; -webkit-box-pack: justify; -webkit-box-align: center; display: flex; align-items:center; justify-content: space-between;}
+.zixun-videos-row-child{width: 49.5%; height: auto;}
+.zixun-videos-child-Box{box-sizing: border-box; padding-left: 10px; padding-right: 10px;}
+.zixun-videos-child-imgBox{width: 100%; height: 175px; background: brown; overflow: hidden;}
+.zixun-videos-child-textBox{width: 100%; height: 40px; transition: 0.5s; -webkit-transition: 0.5s;}
+.zixun-videos-child-imgBox img{width: 100%; height: auto; transition: 0.5s; -webkit-transition: 0.5s;}
+.zixun-videos-child-buttonBox{width: 100%; height: 175px; margin-top: -175px; background: rgba(0,0,0,0.5); opacity: 0;  transition: 0.5s; -webkit-transition: 0.5s;}
+.zixun-videos-child-strBox{width: 100%; height: 175px; margin-top: -175px; transition: 0.5s; -webkit-transition: 0.5s; position: relative; z-index: 998; box-sizing: border-box; padding-left: 10px; padding-right: 10px;}
+.zixun-videos-child-strBoxChild{width: 100%; height: 40px;}
+.zixun-videos-child-strBoxChild div{transition: 0.5s; -webkit-transition: 0.5s;}
+.zixun-videos-child:hover{cursor: pointer; box-shadow: 0px 8px 8px rgba(0,0,0,0.4); transition: 0.5s; -webkit-transition: 0.5s; background: #32373d;}
+.zixun-videos-child:hover .zixun-videos-child-imgBox img{transform: scale(1.1); -webkit-transform: scale(1.1); transition: 0.5s; -webkit-transition: 0.5s;}
+.zixun-videos-child:hover .zixun-videos-child-textBox{color: #ffffff; transition: 0.5s; -webkit-transition: 0.5s;}
+.zixun-videos-child:hover .zixun-videos-child-strBoxChild div{color: #ffffff; transition: 0.5s; -webkit-transition: 0.5s;}
+.zixun-videos-child:hover .zixun-videos-child-buttonBox{opacity: 1; transition: 0.5s; -webkit-transition: 0.5s; position: relative; z-index: 998;}
 
 @media only screen and (min-width: 1000px) and (max-width: 1300px){
     .banner{margin-top: 60px; height: 474px; background-size: 1300px auto; padding-left: 20px; padding-right: 20px;}
@@ -84,14 +106,17 @@
     .banner .rep-nex-Box{margin-top: 0px; width: 50px; height: 50px;}
     .gameRecommend-child{width: 92%;}
     .flex-change{display: -webkit-box; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center;}
-
+    .zixun-videos-row-flex{display: -webkit-box; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center;}
     .zixunTui{margin-top: 60px;}
     .zixunTui-Box2{width: 94%;}
     .zixunTui-child{width: 92%;}
     .zixunTui-zixunBox{width: 100%;}
     .zixunTui-Box3-child{height: 300px;}
-    .zixunTui-Box3{width: 100%; height: 1000px;}
+    .zixunTui-Box3{width: 100%;}
     .zixunTui-zixunBox2{margin-top: 20px;}
+    .zixun-videos-child{width: 49%; margin-top: 16px;}
+    .zixun-videos-row-child{width: 100%; height: auto;}
+    .zixun-videos-row{margin-top: 0px;}
     .zixunTui-Box3-child-flexChange{display: -webkit-box; -webkit-box-pack: center; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center; justify-content: center;}
 }
 @media only screen and (max-width: 600px) and (min-width: 480px){
@@ -106,8 +131,12 @@
     .zixunTui-child{width: 92%;}
     .zixunTui-zixunBox{width: 100%;}
     .zixunTui-Box3-child{height: 300px;}
-    .zixunTui-Box3{width: 100%; height: 1000px;}
+    .zixunTui-Box3{width: 100%;}
+    .zixun-videos-child{width: 49%; margin-top: 10px;}
+    .zixun-videos-row-child{width: 100%; height: auto;}
+    .zixun-videos-row{margin-top: 0px;}
     .zixunTui-zixunBox2{margin-top: 20px;}
+    .zixun-videos-row-flex{display: -webkit-box; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center;}
     .zixunTui-Box3-child-flexChange{display: -webkit-box; -webkit-box-pack: center; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center; justify-content: center;}
 }
 @media only screen and (max-width: 480px){
@@ -122,7 +151,11 @@
     .zixunTui-child{width: 92%;}
     .zixunTui-zixunBox{width: 100%;}
     .zixunTui-Box3-child{height: 300px;}
-    .zixunTui-Box3{width: 100%; height: 1000px;}
+    .zixunTui-Box3{width: 100%;}
     .zixunTui-zixunBox2{margin-top: 20px;}
+    .zixun-videos-child{width: 100%; margin-top: 10px;}
+    .zixun-videos-row-child{width: 100%; height: auto;}
+    .zixun-videos-row{margin-top: 0px;}
+    .zixun-videos-row-flex, .zixun-videos-row-flex-child{display: -webkit-box; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center;}
     .zixunTui-Box3-child-flexChange{display: -webkit-box; -webkit-box-pack: center; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center; justify-content: center;}
 }
