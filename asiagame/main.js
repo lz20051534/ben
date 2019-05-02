@@ -69,85 +69,86 @@ for (var i = 0; i < document.getElementsByClassName('fogetPasswords').length; i+
 
 
 for (var i = 0; i < document.getElementsByClassName('navTan-regLogin-child-eye').length; i++) { //眼睛事件，包括点击，移入，移出
-    eyeClick (i);
+    eyeClick(i);
 }
 
 for (var i = 0; i < document.getElementsByClassName('reg-phoneText').length; i++) { //短信发送按钮事件 和 与之对应的手机号码输入框事件
-    sendMessage (i);
+    sendMessage(i);
 }
 
-function sendMessage (i) {
+function sendMessage(i) {
     var project = document.getElementsByClassName('reg-mobbileNumber')[i];
     var buttonBox = document.getElementsByClassName('reg-phoneText')[i];
     project.oninput = function () { //手机号码输入框文本改变事件
-        if ((/^1[34578]\d{9}$/.test(project.value))) {                                                              
-            buttonBox.style.backgroundColor = '#207f63';   
+        if ((/^1[34578]\d{9}$/.test(project.value))) {
+            buttonBox.style.backgroundColor = '#207f63';
             buttonBox.style.color = '#ffffff';
             buttonBox.disabled = false;
         } else {
-            buttonBox.style.backgroundColor = '#303237';  
+            buttonBox.style.backgroundColor = '#303237';
             buttonBox.style.color = '#697081';
             buttonBox.disabled = true;
         }
     }
-    buttonBox.onclick = function (){  //短信发送按钮单击事件
+    buttonBox.onclick = function () {  //短信发送按钮单击事件
         //alert('短信发送成功,进入重新发送倒计时，按钮颜色恢复默认状态，其他事件也写这里');
-        buttonBox.style.backgroundColor = '#303237';  
+        buttonBox.style.backgroundColor = '#303237';
         buttonBox.style.color = '#697081';
         buttonBox.disabled = true;
         var j = 6;
         buttonBox.innerHTML = j + ' 秒后重新发送';
-        daojishi = setInterval(function(){ 
+        daojishi = setInterval(function () {
             j -= 1;
             if (j === 0) {
                 clearInterval(daojishi);
-                if ((/^1[34578]\d{9}$/.test(project.value))){
-                    buttonBox.style.backgroundColor = '#207f63';  
+                if ((/^1[34578]\d{9}$/.test(project.value))) {
+                    buttonBox.style.backgroundColor = '#207f63';
                     buttonBox.style.color = '#ffffff';
                     buttonBox.innerHTML = '发送短信验证码';
                     buttonBox.disabled = false;
                 } else {
-                    buttonBox.style.backgroundColor = '#303237';  
+                    buttonBox.style.backgroundColor = '#303237';
                     buttonBox.style.color = '#697081';
                     buttonBox.innerHTML = '发送短信验证码';
                 }
             } else {
                 buttonBox.innerHTML = j + ' 秒后重新发送';
             }
-        },1000);
-    }         
-    
+        }, 1000);
+    }
+
     buttonBox.onmouseover = function () { //短信发送按钮移入
         if (this.disabled !== true) {
-            buttonBox.style.backgroundColor = '#c39902';  
+            buttonBox.style.backgroundColor = '#c39902';
         }
     }
     buttonBox.onmouseout = function () { //短信发送按钮移出
         if (this.disabled !== true) {
-            buttonBox.style.backgroundColor = '#207f63';  
+            buttonBox.style.backgroundColor = '#207f63';
         }
     }
 }
-function eyeReload () { //眼睛重载
-    for (var i = 0; i < document.getElementsByClassName('navTan-regLogin-child-eye').length; i++) { 
+function eyeReload() { //眼睛重载
+    for (var i = 0; i < document.getElementsByClassName('navTan-regLogin-child-eye').length; i++) {
         document.getElementsByClassName('navTan-regLogin-child-eye')[i].style.backgroundImage = 'url(images/closeeye.svg)';
     }
 }
-function inputReload () { // 输入框重载
-    var x = document.getElementsByTagName('input');
-    for (var i=0; i < x.length; i++){
+function inputReload() { // 输入框重载
+    var x = document.getElementsByClassName('inputBox-Main');
+    for (var i = 0; i < x.length; i++) {
         x[i].value = '';
+        x[i].parentNode.style.borderBottom = 'solid 1px #303237';
     }
 }
-function sendMessageReload () { //发送短信按钮重载
-    for (var i = 0; i < document.getElementsByClassName('reg-mobbileNumber').length; i++) {                                                         
-        document.getElementsByClassName('reg-phoneText')[i].style.backgroundColor = '#303237';  
+function sendMessageReload() { //发送短信按钮重载
+    for (var i = 0; i < document.getElementsByClassName('reg-mobbileNumber').length; i++) {
+        document.getElementsByClassName('reg-phoneText')[i].style.backgroundColor = '#303237';
         document.getElementsByClassName('reg-phoneText')[i].style.color = '#697081';
         document.getElementsByClassName('reg-phoneText')[i].disabled = true;
     }
 }
 
-function eyeClick (i) { //眼睛操作事件
+function eyeClick(i) { //眼睛操作事件
     project = document.getElementsByClassName('navTan-regLogin-child-eye');
     project[i].onclick = function () { //眼镜单击
         var backgstring = this.style.backgroundImage;
@@ -226,13 +227,25 @@ for (var i = 0; i < document.getElementsByClassName('fogetPasswords2').length; i
     }
 }
 //PC 的注册 / 登录 / 忘记密码 事件 ---------------------------------------------------------------------------------------------
-document.getElementById('theReg').onclick = function() {
+document.getElementById('theReg').onclick = function () {
     document.getElementById('PCLoginMain').setAttribute('style', 'display: -webkit-box; display: flex;');
     document.getElementById('loginMix1').style.display = 'none';
     document.getElementById('regMix1').setAttribute('style', 'display: -webkit-box; display: flex;');
 }
-document.getElementById('theForget').onclick = function() {
+document.getElementById('theForget').onclick = function () {
     document.getElementById('PCLoginMain').setAttribute('style', 'display: -webkit-box; display: flex;');
     document.getElementById('loginMix1').style.display = 'none';
     document.getElementById('fogetMix1').setAttribute('style', 'display: -webkit-box; display: flex;');
+}
+
+for (var i = 0; i < document.getElementsByClassName('inputBox-Main').length; i++) {
+    var projectBen = document.getElementsByClassName('inputBox-Main')[i];
+    projectBen.onfocus = function () {
+        this.parentNode.style.borderBottom = 'solid 1px #03fcb3';
+    }
+    projectBen.onblur = function () {
+        if (this.value.length === 0) {
+            this.parentNode.style.borderBottom = 'solid 1px #303237';
+        }
+    }
 }
