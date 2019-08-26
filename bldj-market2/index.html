@@ -626,8 +626,17 @@
             <script type='text/javascript' src="https://cdn.staticfile.org/clipboard.js/1.5.15/clipboard.min.js"></script>
             <script type="text/javascript" src="clipboard.js-master/mshare.js"></script>
             <script type='text/javascript'>
-               
-
+                var clipboard = new Clipboard('.btn');
+                clipboard.on('success', function(e) {
+                    console.info('Action:', e.action);
+                    console.info('Text:', e.text);
+                    console.info('Trigger:', e.trigger);
+                    e.clearSelection();
+                });
+                clipboard.on('error', function(e) {
+                    console.error('Action:', e.action);
+                    console.error('Trigger:', e.trigger);
+                });
                 var mshare = new mShare({
                     title: 'Lorem ipsum dolor sit.',
                     url: '',
@@ -637,19 +646,6 @@
                 $('.btn').click(function () {
                     // 1 ==> 朋友圈  2 ==> 朋友  0 ==> 直接弹出原生
                     mshare.init(+$(this).data('mshare'));
-                    var clipboard = new Clipboard('.btn');
-                    clipboard.on('success', function(e) {
-                        console.info('Action:', e.action);
-                        console.info('Text:', e.text);
-                        console.info('Trigger:', e.trigger);
-                        e.clearSelection();
-                        alert('复制成功')
-                    });
-                    clipboard.on('error', function(e) {
-                        console.error('Action:', e.action);
-                        console.error('Trigger:', e.trigger);
-                        alert('复制失败')
-                    });
                 });
              </script>
         </div>
