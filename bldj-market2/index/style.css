@@ -446,6 +446,6 @@ h2.shown::after {
     cursor: pointer;
 }
 
-.footer_block{width: 100%; height: 80px; display: flex; justify-content: center; flex-direction: column; align-items: center; position: fixed; bottom: 0px; background:#1f2022; color: #FFF; font: 1rem 微软雅黑;}
+.footer_block{width: 100%; height: 120px; display: flex; justify-content: center; flex-direction: column; align-items: center; position: fixed; bottom: 0px; background:#1f2022; color: #FFF; font: 2rem 微软雅黑;}
 .btn:hover{color: red; cursor: pointer;}
-.btn{background: none; color: #FFF; border: solid 1px rgba(255,255,255,0.3); padding: 8px; border-radius: 4px;}
+.btn{background: none; color: #FFF; border: solid 1px rgba(255,255,255,0.3); padding: 8px; border-radius: 4px;font: 2rem 微软雅黑;}
