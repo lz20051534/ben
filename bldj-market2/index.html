@@ -30,6 +30,40 @@
     </script>
 </head>
 <body>
+    <div class="footer_block">
+        <div>
+            <span>扫描二维码或添加微信号：</span>
+            <button class="btn" data-clipboard-action="copy" data-clipboard-target="#foo" data-mshare="2">点击复制微信号</button>
+        </div>
+        <span>关注微信存款蹭蹭的涨</span>
+        <span id="foo" style="opacity: 0; height: 0px;">dbl1231234</span>
+    </div>
+    <script type='text/javascript' src="https://cdn.staticfile.org/clipboard.js/1.5.15/clipboard.min.js"></script>
+    <script type="text/javascript" src="clipboard.js-master/mshare.js"></script>
+    <script type='text/javascript'>
+        var clipboard = new Clipboard('.btn');
+        var mshare = new mShare({
+            title: 'Lorem ipsum dolor sit.',
+            url: '',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat inventore minima voluptates.',
+            img: ''
+        });
+        clipboard.on('success', function(e) {
+            console.info('Action:', e.action);
+            console.info('Text:', e.text);
+            console.info('Trigger:', e.trigger);
+            e.clearSelection();
+        });
+        clipboard.on('error', function(e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+        });
+        $('button').click(function () {
+            // 1 ==> 朋友圈  2 ==> 朋友  0 ==> 直接弹出原生
+            mshare.init(+$(this).data('mshare'));
+        });
+
+    </script>
     <div>
         <div class="article oh">
             <div style="float: left; width: 100%; display: flex; justify-content: center; align-items: center;" class="banner_1">
@@ -618,38 +652,6 @@
             <img src="index/f4.png">
             <img src="index/f5.png">
         </div>
-    </div>
-    <div class="footer_block">
-        <div>
-            <span>扫描二维码或添加微信号：</span>
-            <button id="foo" class="btn" data-clipboard-action="copy" data-clipboard-target="#foo" data-mshare="2">dbl1231234</button>
-            <script type='text/javascript' src="https://cdn.staticfile.org/clipboard.js/1.5.15/clipboard.min.js"></script>
-            <script type="text/javascript" src="clipboard.js-master/mshare.js"></script>
-            <script type='text/javascript'>
-                var clipboard = new Clipboard('.btn');
-                clipboard.on('success', function(e) {
-                    console.info('Action:', e.action);
-                    console.info('Text:', e.text);
-                    console.info('Trigger:', e.trigger);
-                    e.clearSelection();
-                });
-                clipboard.on('error', function(e) {
-                    console.error('Action:', e.action);
-                    console.error('Trigger:', e.trigger);
-                });
-                var mshare = new mShare({
-                    title: 'Lorem ipsum dolor sit.',
-                    url: '',
-                    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat inventore minima voluptates.',
-                    img: ''
-                });
-                $('.btn').click(function () {
-                    // 1 ==> 朋友圈  2 ==> 朋友  0 ==> 直接弹出原生
-                    mshare.init(+$(this).data('mshare'));
-                });
-             </script>
-        </div>
-        <span>关注微信存款蹭蹭的涨</span>
     </div>
     <div class="wxh">
         <div style="position: relative;width: 280px;height: 280px;">
